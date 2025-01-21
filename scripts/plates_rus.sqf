@@ -6,5 +6,5 @@ timer_plate setObjectTextureGlobal [0, "scripts\plates_rus\timer_plate_ca.paa"];
 obrspn22_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrspn22_plate_ca.paa"];
 dshp56_plate setObjectTextureGlobal [0, "scripts\plates_rus\dshp56_plate_ca.paa"];
 obrmp155_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp155_plate_ca.paa"];
-76dshd_plate setObjectTextureGlobal [0, "scripts\plates_rus\76dshd_plate_ca.paa"];
+dshd76_plate setObjectTextureGlobal [0, "scripts\plates_rus\dshd76_plate_ca.paa"];
 obrmp40_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp40_plate_ca.paa"];

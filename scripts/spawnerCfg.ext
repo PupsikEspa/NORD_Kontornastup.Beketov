@@ -226,11 +226,11 @@ class pyatnashka_spawner_class //Пятнашка (ПУСТО)
     };
 };
 
-class 76dshd_spawner_class //76 ДШД
+class dshd76_spawner_class //76 ДШД
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == 76dshd_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == dshd76_spawner)"; // "(playerSide in [west,independent])"
     
-    class 76dshd_spawner_class
+    class dshd76_spawner_class
 	{
         displayName = "Запрос техники 76 ДШД";
         vehicles[] =
@@ -243,7 +243,7 @@ class 76dshd_spawner_class //76 ДШД
 		};
         spawnPoints[] =
         {
-            {"1",{"76dshd_spawnplace"}}
+            {"1",{"dshd76_spawnplace"}}
         };
         
     };
