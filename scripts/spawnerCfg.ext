@@ -723,13 +723,13 @@ class msco73_spawner_class //73 МЦСО
         displayName = "Запрос техники";
         vehicles[] =
         {
-            {"nord_leopard2a4_UA",1,"true"}
-            {"b_afougf_old_uaf_t64bm",1,"true"}
-            {"nord_marder_1a5_ua",1,"true"}
-            {"rhsusf_CGRCAT1A2_usmc_wd",1,"true"}
-            {"b_afougf_kozak5_unarmed_F",1,"true"}
-            {"hmmwv_m2_krest",1,"true"}
-            {"rhsusf_m1045_w",1,"true"}
+            {"nord_leopard2a4_UA",1,"true"},
+            {"b_afougf_old_uaf_t64bm",1,"true"},
+            {"nord_marder_1a5_ua",1,"true"},
+            {"rhsusf_CGRCAT1A2_usmc_wd",1,"true"},
+            {"b_afougf_kozak5_unarmed_F",1,"true"},
+            {"hmmwv_m2_krest",1,"true"},
+            {"rhsusf_m1045_w",1,"true"},
             {"rhsgref_tla_offroad",1,"true"}
         };
         spawnPoints[] =
