@@ -1,3 +1,3 @@
 {
 	if (_x != ((group player) getVariable "regArs")) then {[_x, false] call ace_arsenal_fnc_removeBox; _x lockInventory true;};
-} forEach [vks_ars,obrmp810_ars,pdp51_ars,pyatnashka_ars,obrmp155_ars,omsbr64_ars,dshp56_ars,shtorm_v_ars,obrspn2_ars,tsn_senezh_ars,finist_ars,ps_fsb_ars,gnl_ars,odshbr95_ars,ombr61_ars,odsbr82_ars,obrmp36_ars,odshbr80_ars,psu_ars,legion_pidorasov_ars,ombr47_ars,tso_a_ars,omega_ars,msco73_ars];
+} forEach [vks_ars,dshp56_ars,dshd7_ars,pyatnashka_ars,obrmp155_ars,timer_ars,76dshd_ars,obrmp40_ars,obrspn22_ars,obrspn45_ars,finist_ars,dshr_rusich_ars,gnl_ars,odshbr95_ars,ombr61_ars,odsbr82_ars,obrmp36_ars,odshbr80_ars,psu_ars,legion_pidorasov_ars,ombr47_ars,tso_a_ars,omega_ars,msco73_ars];
