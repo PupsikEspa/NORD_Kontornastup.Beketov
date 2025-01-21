@@ -560,34 +560,34 @@ class obrmp36_spawner_class //36 ОБрМП
     };
 };
 
-class ombr61_spawner_class //61 ОМБр
+class obrmp37_spawner_class //61 ОМБр
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == ombr61_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == obrmp37_spawner)"; // "(playerSide in [west,independent])"
     
-    class ombr61_spawner_class
+    class obrmp37_spawner_class
 	{
-        displayName = "Запрос техники ombr61";
+        displayName = "Запрос техники obrmp37";
         vehicles[] =
         {};
         spawnPoints[] =
         {
-            {"1",{"ombr61_spawnplace"}}
+            {"1",{"obrmp37_spawnplace"}}
         };
         
     };
 };
-class legion_pidorasov_spawner_class //ЛСР
+class oshb425_spawner_class //ЛСР
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == legion_pidorasov_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == oshb425_spawner)"; // "(playerSide in [west,independent])"
     
-    class legion_pidorasov_spawner_class
+    class oshb425_spawner_class
 	{
         displayName = "Запрос техники ЛСР";
         vehicles[] =
         {};
         spawnPoints[] =
         {
-            {"1",{"legion_pidorasov_spawnplace"}}
+            {"1",{"oshb425_spawnplace"}}
         };
         
     };
@@ -610,35 +610,35 @@ class ombr47_spawner_class //47 ОМБр
     };
 };
 
-class tso_a_spawner_class //ЦСО "А"
+class opsn8_spawner_class //ЦСО "А"
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == tso_a_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == opsn8_spawner)"; // "(playerSide in [west,independent])"
     
-    class tso_a_spawner_class
+    class opsn8_spawner_class
 	{
         displayName = "Запрос техники";
         vehicles[] =
         {};
         spawnPoints[] =
         {
-            {"1",{"tso_a_spawnplace"}}
+            {"1",{"opsn8_spawnplace"}}
         };
         
     };
 };
 
-class omega_spawner_class //НГУ "Омега"
+class opsn3_spawner_class //НГУ "Омега"
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == omega_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == opsn3_spawner)"; // "(playerSide in [west,independent])"
     
-    class omega_spawner_class
+    class opsn3_spawner_class
 	{
         displayName = "Запрос техники";
         vehicles[] =
         {};
         spawnPoints[] =
         {
-            {"1",{"omega_spawnplace"}}
+            {"1",{"opsn3_spawnplace"}}
         };
         
     };

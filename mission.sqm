@@ -30336,8 +30336,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""ombr61_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="ombr61_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""obrmp37_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="obrmp37_spawner";
 																disableSimulation=1;
 															};
 															id=316;
@@ -30523,8 +30523,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""legion_pidorasov_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="legion_pidorasov_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""oshb425_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="oshb425_spawner";
 																disableSimulation=1;
 															};
 															id=2103;
@@ -30599,8 +30599,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""tso_a_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="tso_a_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""opsn8_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="opsn8_spawner";
 																disableSimulation=1;
 															};
 															id=99809;
@@ -30618,8 +30618,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""omega_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="omega_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""opsn3_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="opsn3_spawner";
 																disableSimulation=1;
 															};
 															id=99828;
@@ -30704,7 +30704,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="ombr61_spawnplace";
+				name="obrmp37_spawnplace";
 				disableSimulation=1;
 			};
 			id=333;
@@ -34365,8 +34365,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="ombr61";
-												init="this setVariable [""regArs"", ombr61_ars, true];" \n "this setVariable [""regSpawner"", ombr61_spawner, true];";
+												name="obrmp37";
+												init="this setVariable [""regArs"", obrmp37_ars, true];" \n "this setVariable [""regSpawner"", obrmp37_spawner, true];";
 											};
 											id=123093;
 											class CustomAttributes
@@ -36912,8 +36912,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="legion_pidorasov";
-												init="this setVariable [""regArs"", legion_pidorasov_ars, true];" \n "this setVariable [""regSpawner"", legion_pidorasov_spawner, true];";
+												name="oshb425";
+												init="this setVariable [""regArs"", oshb425_ars, true];" \n "this setVariable [""regSpawner"", oshb425_spawner, true];";
 											};
 											id=123135;
 											atlOffset=0.029462814;
@@ -38167,8 +38167,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="tso_a";
-												init="this setVariable [""regArs"", tso_a_ars, true];" \n "this setVariable [""regSpawner"", tso_a_spawner, true];";
+												name="opsn8";
+												init="this setVariable [""regArs"", opsn8_ars, true];" \n "this setVariable [""regSpawner"", opsn8_spawner, true];";
 											};
 											id=123167;
 											class CustomAttributes
@@ -38818,8 +38818,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="omega";
-												init="this setVariable [""regArs"", omega_ars, true];" \n "this setVariable [""regSpawner"", omega_spawner, true];";
+												name="opsn3";
+												init="this setVariable [""regArs"", opsn3_ars, true];" \n "this setVariable [""regSpawner"", opsn3_spawner, true];";
 											};
 											id=123178;
 											atlOffset=0.064378738;
@@ -41193,7 +41193,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="legion_pidorasov_spawnplace";
+				name="oshb425_spawnplace";
 				disableSimulation=1;
 			};
 			id=2127;
@@ -41448,7 +41448,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addBackpackCargoGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
-				name="legion_pidorasov_ars";
+				name="oshb425_ars";
 			};
 			id=2122;
 			type="rhs_spec_weapons_crate";
@@ -41822,7 +41822,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addBackpackCargoGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
-				name="ombr61_ars";
+				name="obrmp37_ars";
 			};
 			id=281;
 			type="rhs_spec_weapons_crate";
@@ -59791,7 +59791,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addBackpackCargoGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n " this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n "};" \n "";
-				name="tso_a_ars";
+				name="opsn8_ars";
 			};
 			id=99825;
 			type="rhs_spec_weapons_crate";
@@ -59864,7 +59864,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="tso_a_spawnplace";
+				name="opsn8_spawnplace";
 				disableSimulation=1;
 			};
 			id=99827;
@@ -59960,7 +59960,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addBackpackCargoGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n " this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n "};" \n "";
-				name="omega_ars";
+				name="opsn3_ars";
 			};
 			id=99845;
 			type="rhs_spec_weapons_crate";
@@ -60034,7 +60034,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="omega_spawnplace";
+				name="opsn3_spawnplace";
 				disableSimulation=1;
 			};
 			id=99846;
@@ -65560,7 +65560,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="omega_plate";
+						name="opsn3_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
@@ -65609,7 +65609,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="tso_a_plate";
+						name="opsn8_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
@@ -65805,7 +65805,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="ombr61_plate";
+						name="obrmp37_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
@@ -65904,7 +65904,7 @@ class Mission
 					flags=1;
 					class Attributes
 					{
-						name="legion_pidorasov_plate";
+						name="oshb425_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
