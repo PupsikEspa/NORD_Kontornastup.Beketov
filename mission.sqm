@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=130020;
+		nextID=130026;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=79971;
+		nextID=80028;
 	};
 	class Camera
 	{
-		pos[]={4476.4175,19.315453,14931.14};
-		dir[]={-0.54312903,-0.27054757,-0.79486781};
-		up[]={-0.15263449,0.96270657,-0.22338015};
-		aside[]={-0.82565939,0,0.56416875};
+		pos[]={19670.813,87.506073,20069.695};
+		dir[]={-0.032239549,-0.91487277,0.40245306};
+		up[]={-0.073054232,0.40374216,0.91195136};
+		aside[]={0.99680674,0,0.079851791};
 	};
 };
 binarizationWanted=0;
@@ -471,7 +471,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -523,7 +523,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -30089,7 +30089,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=513;
+		items=515;
 		class Item0
 		{
 			dataType="Layer";
@@ -66869,7 +66869,7 @@ class Mission
 			type="";
 			a=100;
 			b=1124.7487;
-			angle=343.11105;
+			angle=343.11102;
 			id=129991;
 			atlOffset=18.314915;
 			class CustomAttributes
@@ -66926,7 +66926,7 @@ class Mission
 			type="";
 			a=100;
 			b=1710.7085;
-			angle=343.55133;
+			angle=343.55127;
 			id=129992;
 			atlOffset=7.6293945e-06;
 			class CustomAttributes
@@ -66983,7 +66983,7 @@ class Mission
 			type="";
 			a=100;
 			b=666.73889;
-			angle=356.32166;
+			angle=356.32156;
 			id=129993;
 			atlOffset=1.7996101;
 			class CustomAttributes
@@ -67040,7 +67040,7 @@ class Mission
 			type="";
 			a=100;
 			b=884.25995;
-			angle=309.91733;
+			angle=309.91724;
 			id=129994;
 			atlOffset=10.398743;
 			class CustomAttributes
@@ -67211,7 +67211,7 @@ class Mission
 			type="";
 			a=100;
 			b=374.09482;
-			angle=312.24063;
+			angle=312.24054;
 			id=129997;
 			atlOffset=10.881796;
 			class CustomAttributes
@@ -67268,7 +67268,7 @@ class Mission
 			type="";
 			a=100;
 			b=531.9826;
-			angle=38.376713;
+			angle=38.376701;
 			id=129998;
 			atlOffset=12.918562;
 			class CustomAttributes
@@ -67325,7 +67325,7 @@ class Mission
 			type="";
 			a=100;
 			b=243.43539;
-			angle=20.750769;
+			angle=20.750767;
 			id=129999;
 			atlOffset=12.204437;
 			class CustomAttributes
@@ -67439,7 +67439,7 @@ class Mission
 			type="";
 			a=100;
 			b=1251.6469;
-			angle=353.24075;
+			angle=353.24066;
 			id=130002;
 			atlOffset=2.6589546;
 			class CustomAttributes
@@ -67496,7 +67496,7 @@ class Mission
 			type="";
 			a=100;
 			b=1274.0265;
-			angle=192.47131;
+			angle=192.4713;
 			id=130003;
 			atlOffset=14.765278;
 			class CustomAttributes
@@ -67553,7 +67553,7 @@ class Mission
 			type="";
 			a=100;
 			b=769.89404;
-			angle=348.89801;
+			angle=348.89792;
 			id=130004;
 			atlOffset=3.1832523;
 			class CustomAttributes
@@ -67610,7 +67610,7 @@ class Mission
 			type="";
 			a=100;
 			b=1044.8208;
-			angle=285.26007;
+			angle=285.25998;
 			id=130005;
 			atlOffset=7.6293945e-06;
 			class CustomAttributes
@@ -67667,7 +67667,7 @@ class Mission
 			type="";
 			a=100;
 			b=545.59515;
-			angle=300.47156;
+			angle=300.47147;
 			id=130006;
 			atlOffset=13.79324;
 			class CustomAttributes
@@ -67838,7 +67838,7 @@ class Mission
 			type="";
 			a=100;
 			b=562.60791;
-			angle=266.31845;
+			angle=266.31839;
 			id=130009;
 			atlOffset=13.131069;
 			class CustomAttributes
@@ -68237,7 +68237,7 @@ class Mission
 			type="";
 			a=100;
 			b=1482.2954;
-			angle=332.14764;
+			angle=332.14761;
 			id=130016;
 			atlOffset=30.686646;
 			class CustomAttributes
@@ -68411,6 +68411,119 @@ class Mission
 			angle=1.2160015;
 			id=130019;
 			atlOffset=0.82683945;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item513
+		{
+			dataType="Marker";
+			position[]={569.36871,21.501631,665.18915};
+			name="respawn_west";
+			markerType="RECTANGLE";
+			type="";
+			a=2.017;
+			b=3.688;
+			angle=122.28795;
+			id=130024;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item514
+		{
+			dataType="Marker";
+			position[]={19673.193,28.591246,20091.889};
+			name="respawn_east";
+			markerType="RECTANGLE";
+			type="";
+			a=2.017;
+			b=3.688;
+			angle=72.312462;
+			id=130025;
+			atlOffset=5.7220459e-06;
 			class CustomAttributes
 			{
 				class Attribute0
