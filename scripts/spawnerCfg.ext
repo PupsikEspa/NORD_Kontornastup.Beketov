@@ -44,7 +44,7 @@ class common_vks_spawner_class //ВКС
         displayName = "Запрос техники ВКС";
         vehicles[] =
         {
-            {"RUS_VKS_south_mi8amtsh",2,"true"},
+            {"RUS_VKS_south_mi8amtsh",1,"true"},
             {"RUS_VKS_south_mi24v_23mm_bez_pturov",1,"true"},
             {"RUS_VKS_east_ka52",1,"true"},
 		};
@@ -287,10 +287,12 @@ class obrspn45_spawner_class //45 ОБрСпН
 			{"rhs_tigr_sts_vdv",1,"true"},
 			{"RUS_GRU_east_kamaz63968",1,"true"},
 			{"rhsgref_tla_offroad",1,"true"},
+			{"RUS_VKS_south_mi8amtsh",1,"true"},
         };
         spawnPoints[] =
         {
-            {"1",{"obrspn45_spawnplace"}}
+            {"1",{"obrspn45_spawnplace"}},
+			{"Вертолётная площадка 1",{"vks_spawnplace_1"}},
         };
         
     };
@@ -580,6 +582,7 @@ class obrmp36_spawner_class //36 ОБрМП
 			{"rhsusf_CGRCAT1A2_usmc_wd",1,"true"},
 			{"b_afougf_uaf_fiona",2,"true"},
 			{"m113_ukr_krest",2,"true"},
+			{"bmp2_ukr_krest",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -673,7 +676,6 @@ class opsn8_spawner_class //8 ОПСпН
         vehicles[] =
         {
 			{"m2a2_pixel_krest",1,"true"},
-			{"bmp2_ukr_krest",1,"true"},
 			{"rhsusf_CGRCAT1A2_usmc_wd",1,"true"},
 			{"b_afougf_kozak5_unarmed_F",1,"true"},
 			{"b_afougf_uaf_fiona",1,"true"},
@@ -704,7 +706,7 @@ class opsn3_spawner_class //3 ОПСпН
 			{"b_afougf_m1151_base",1,"true"},
 			{"rhsusf_m1043_w_mk19",1,"true"},
 			{"rhsusf_m1151_m2crows_usarmy_wd",1,"true"},
-			{"rhsgref_tla_offroad",1,"true"},
+			{"rhsgref_tla_offroad",2,"true"},
 		};
         spawnPoints[] =
         {
