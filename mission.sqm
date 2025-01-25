@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=80655;
+		nextID=80712;
 	};
 	class Camera
 	{
-		pos[]={581.41766,45.864853,708.68744};
-		dir[]={0.080043688,-0.57067114,-0.81734997};
-		up[]={0.05563093,0.82111603,-0.56805062};
-		aside[]={-0.99529922,3.2427488e-07,-0.097469732};
+		pos[]={19626.736,60.988277,20116.395};
+		dir[]={-0.38344607,-0.79993057,-0.46160683};
+		up[]={-0.51113832,0.6000914,-0.61532748};
+		aside[]={-0.76922554,1.4901161e-08,0.63897824};
 	};
 };
 binarizationWanted=0;
@@ -544,7 +544,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -570,7 +570,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -583,7 +583,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -596,7 +596,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -38849,8 +38849,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={606.90759,20.623201,686.53699};
-				angles[]={0.031666279,4.7448339,6.25317};
+				position[]={606.90778,20.623978,686.53711};
+				angles[]={0.031660274,4.7448349,6.2531657};
 			};
 			side="Empty";
 			flags=4;
@@ -38860,7 +38860,6 @@ class Mission
 			};
 			id=1065;
 			type="I_E_CargoNet_01_ammo_F";
-			atlOffset=-0.00078773499;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -38885,7 +38884,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""rhs_weap_fim92"",""rhs_weap_fgm148"",""rhs_weap_maaws""],[10,3,5]],[[""rhs_fim92_mag"",""rhs_fgm148_magazine_AT"",""rhs_mag_maaws_HEAT"",""rhs_mag_maaws_HE"",""za_enhancedmaaws_mag_HEAT551""],[10,3,10,10,10]],[[],[]],[[""Volnorez_Bag""],[2]]],false]";
+							value="[[[[""rhs_weap_fim92"",""rhs_weap_fgm148"",""rhs_weap_maaws""],[10,3,5]],[[""rhs_fim92_mag"",""rhs_fgm148_magazine_AT"",""rhs_mag_maaws_HEAT"",""rhs_mag_maaws_HE"",""za_enhancedmaaws_mag_HEAT551""],[10,3,10,10,10]],[[],[]],[[""Volnorez_Bag""],[4]]],false]";
 						};
 					};
 				};
@@ -40657,8 +40656,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={19600.059,28.760818,20010.121};
-						angles[]={0.004200357,5.9733686,0.037512559};
+						position[]={19600.059,28.761301,20010.121};
+						angles[]={0.0042062434,5.9733715,0.037507124};
 					};
 					side="Empty";
 					flags=4;
@@ -40668,7 +40667,7 @@ class Mission
 					};
 					id=56670;
 					type="I_E_CargoNet_01_ammo_F";
-					atlOffset=-0.0014820099;
+					atlOffset=-0.00099945068;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -40693,7 +40692,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[[[[""RPG_30K"",""Verba_9k333""],[10,10]],[[""RPG_30K_MAG"",""rhs_mine_pmn2_mag"",""rhs_mine_tm62m_mag"",""9m336""],[10,100,50,10]],[[],[]],[[""Volnorez_Bag""],[2]]],false]";
+									value="[[[[""RPG_30K"",""Verba_9k333""],[10,10]],[[""RPG_30K_MAG"",""rhs_mine_pmn2_mag"",""rhs_mine_tm62m_mag"",""9m336""],[10,100,50,10]],[[],[]],[[""Volnorez_Bag""],[4]]],false]";
 								};
 							};
 						};
@@ -67627,7 +67626,7 @@ class Mission
 			type="";
 			a=100;
 			b=772.28308;
-			angle=113.20455;
+			angle=113.20454;
 			id=130005;
 			class CustomAttributes
 			{
@@ -69419,7 +69418,7 @@ class Mission
 			colorName="ColorYellow";
 			a=6.4047852;
 			b=112.80926;
-			angle=90.008492;
+			angle=90.008484;
 			id=130088;
 			atlOffset=0.18597984;
 			class CustomAttributes
@@ -71576,6 +71575,7 @@ class Mission
 			};
 			id=130239;
 			type="b_afougf_offroad_01";
+			atlOffset=-0.00015258789;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -71827,6 +71827,7 @@ class Mission
 			};
 			id=130240;
 			type="b_afougf_offroad_01";
+			atlOffset=0.00017929077;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72078,6 +72079,7 @@ class Mission
 			};
 			id=130241;
 			type="b_afougf_offroad_01";
+			atlOffset=-0.00037002563;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72329,6 +72331,7 @@ class Mission
 			};
 			id=130242;
 			type="b_afougf_offroad_01";
+			atlOffset=-0.00054168701;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72740,7 +72743,7 @@ class Mission
 			colorName="ColorCIV";
 			a=28.83703;
 			b=915.95715;
-			angle=90.015076;
+			angle=90.015068;
 			id=130251;
 			atlOffset=-13.590967;
 			class CustomAttributes
@@ -72856,7 +72859,7 @@ class Mission
 			colorName="ColorCIV";
 			a=28.83703;
 			b=770.01868;
-			angle=218.47427;
+			angle=218.47424;
 			id=130253;
 			atlOffset=2.2030144;
 			class CustomAttributes
@@ -73030,7 +73033,7 @@ class Mission
 			colorName="ColorCIV";
 			a=28.83703;
 			b=1525.5333;
-			angle=110.11644;
+			angle=110.11642;
 			id=130256;
 			atlOffset=15.257504;
 			class CustomAttributes
@@ -73133,7 +73136,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={572.68604,23.366863,667.86523};
+				position[]={572.65533,23.365747,667.98431};
 				angles[]={0.015014294,2.0757835,6.2590189};
 			};
 			side="Empty";
