@@ -5,14 +5,14 @@ class EditorData
 	angleGridStep=0.017453292;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=521;
+	toggles=1545;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=130247;
+		nextID=130248;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=80484;
+		nextID=80541;
 	};
 	class Camera
 	{
-		pos[]={591.9516,49.390068,702.7561};
-		dir[]={-0.0063419756,-0.41002876,-0.91206551};
-		up[]={-0.0028517311,0.91207027,-0.41003653};
-		aside[]={-0.99999243,-3.7474456e-07,0.0069538821};
+		pos[]={19633.461,46.345234,20111.156};
+		dir[]={0.23918752,-0.68637526,0.68678838};
+		up[]={0.22574487,0.7272476,0.64818996};
+		aside[]={0.94436675,0,-0.32889426};
 	};
 };
 binarizationWanted=0;
@@ -522,7 +522,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -548,7 +548,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -561,7 +561,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -574,7 +574,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -67605,7 +67605,7 @@ class Mission
 			type="";
 			a=100;
 			b=772.28308;
-			angle=113.20458;
+			angle=113.20457;
 			id=130005;
 			class CustomAttributes
 			{
@@ -69021,11 +69021,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13900.103,37.623627,5336.0059};
+				position[]={13900.861,37.452148,5333.0029};
 				angles[]={6.2348843,0,6.2482214};
 			};
 			id=130080;
 			type="WMT_Task_Point";
+			atlOffset=0.00024032593;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -69557,7 +69558,7 @@ class Mission
 			colorName="ColorYellow";
 			a=6.4047852;
 			b=112.80926;
-			angle=90.008514;
+			angle=90.008499;
 			id=130088;
 			atlOffset=0.18648148;
 			class CustomAttributes
@@ -69671,7 +69672,7 @@ class Mission
 			colorName="ColorYellow";
 			a=6.4047852;
 			b=112.80926;
-			angle=90.008507;
+			angle=90.008492;
 			id=130090;
 			atlOffset=3.0517578e-05;
 			class CustomAttributes
@@ -69729,7 +69730,7 @@ class Mission
 			colorName="ColorYellow";
 			a=6.4047852;
 			b=112.80926;
-			angle=90.008507;
+			angle=90.008492;
 			id=130091;
 			class CustomAttributes
 			{
@@ -69842,7 +69843,7 @@ class Mission
 			colorName="ColorYellow";
 			a=6.4047852;
 			b=112.80926;
-			angle=90.008499;
+			angle=90.008484;
 			id=130093;
 			atlOffset=-3.8146973e-06;
 			class CustomAttributes
@@ -70696,6 +70697,7 @@ class Mission
 			};
 			id=130212;
 			type="UAZ_03_transport_F";
+			atlOffset=0.0049381256;
 		};
 		class Item536
 		{
@@ -70712,6 +70714,7 @@ class Mission
 			};
 			id=130213;
 			type="UAZ_03_transport_F";
+			atlOffset=0.0032939911;
 		};
 		class Item537
 		{
@@ -70728,6 +70731,7 @@ class Mission
 			};
 			id=130214;
 			type="UAZ_03_transport_F";
+			atlOffset=0.00053977966;
 		};
 		class Item538
 		{
@@ -70744,6 +70748,7 @@ class Mission
 			};
 			id=130215;
 			type="UAZ_03_transport_F";
+			atlOffset=-0.0025424957;
 		};
 		class Item539
 		{
@@ -71707,7 +71712,7 @@ class Mission
 			};
 			id=130239;
 			type="b_afougf_offroad_01";
-			atlOffset=9.727478e-05;
+			atlOffset=-0.0017948151;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -71959,7 +71964,7 @@ class Mission
 			};
 			id=130240;
 			type="b_afougf_offroad_01";
-			atlOffset=7.6293945e-06;
+			atlOffset=-0.00031852722;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72211,7 +72216,7 @@ class Mission
 			};
 			id=130241;
 			type="b_afougf_offroad_01";
-			atlOffset=7.6293945e-06;
+			atlOffset=9.9182129e-05;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72463,7 +72468,7 @@ class Mission
 			};
 			id=130242;
 			type="b_afougf_offroad_01";
-			atlOffset=7.6293945e-06;
+			atlOffset=0.0001373291;
 			class CustomAttributes
 			{
 				class Attribute0
