@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=130284;
+		nextID=130288;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=80997;
+		nextID=81054;
 	};
 	class Camera
 	{
-		pos[]={666.31555,21.245319,627.26929};
-		dir[]={0.72874653,-0.58256847,-0.36009881};
-		up[]={0.52231079,0.81275553,-0.2580924};
-		aside[]={-0.44303432,-4.6817877e-07,-0.89658409};
+		pos[]={653.1698,57.770752,617.1759};
+		dir[]={-0.12072009,-0.75106245,-0.6492179};
+		up[]={-0.13730688,0.66021514,-0.73841625};
+		aside[]={-0.98322999,1.1085649e-07,0.18283042};
 	};
 };
 binarizationWanted=0;
@@ -538,7 +538,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -564,7 +564,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -577,7 +577,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -590,7 +590,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -36019,7 +36019,7 @@ class Mission
 											side="West";
 											class Entities
 											{
-												items=10;
+												items=12;
 												class Item0
 												{
 													dataType="Object";
@@ -36637,6 +36637,122 @@ class Mission
 															};
 														};
 														nAttributes=3;
+													};
+												};
+												class Item10
+												{
+													dataType="Object";
+													class PositionInfo
+													{
+														position[]={655.29999,22.141623,599.78601};
+														angles[]={0.025359632,5.2151661,0.014346607};
+													};
+													side="West";
+													flags=5;
+													class Attributes
+													{
+														description="Giga";
+														isPlayable=1;
+														class Inventory
+														{
+															class uniform
+															{
+																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
+																isBackpack=0;
+															};
+															goggles="ltf_pyr_blclv2_cb";
+														};
+													};
+													id=130285;
+													type="B_Survivor_F";
+													atlOffset=0.022453308;
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="speaker";
+															expression="_this setspeaker _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="Male04ENG";
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="pitch";
+															expression="_this setpitch _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0.99000001;
+																};
+															};
+														};
+														nAttributes=2;
+													};
+												};
+												class Item11
+												{
+													dataType="Object";
+													class PositionInfo
+													{
+														position[]={654.633,22.137316,599.51697};
+														angles[]={0.025359632,5.2151661,0.014346607};
+													};
+													side="West";
+													flags=5;
+													class Attributes
+													{
+														description="Fraer";
+														isPlayable=1;
+														class Inventory
+														{
+															class uniform
+															{
+																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
+																isBackpack=0;
+															};
+															goggles="ltf_pyr_blclv2_cb";
+														};
+													};
+													id=130287;
+													type="B_Survivor_F";
+													atlOffset=0.023752213;
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="speaker";
+															expression="_this setspeaker _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="Male04ENG";
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="pitch";
+															expression="_this setpitch _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0.99000001;
+																};
+															};
+														};
+														nAttributes=2;
 													};
 												};
 											};
@@ -38448,19 +38564,19 @@ class Mission
 										};
 									};
 									id=341;
-									atlOffset=0.46298027;
+									atlOffset=0.24491692;
 								};
 							};
 							id=340;
-							atlOffset=0.46298027;
+							atlOffset=0.24491692;
 						};
 					};
 					id=339;
-					atlOffset=0.46298027;
+					atlOffset=0.24491692;
 				};
 			};
 			id=338;
-			atlOffset=0.46298027;
+			atlOffset=0.24491692;
 		};
 		class Item11
 		{
