@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=80940;
+		nextID=80997;
 	};
 	class Camera
 	{
@@ -538,7 +538,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -564,7 +564,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -577,7 +577,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -590,7 +590,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -38448,19 +38448,19 @@ class Mission
 										};
 									};
 									id=341;
-									atlOffset=0.53941154;
+									atlOffset=0.46298027;
 								};
 							};
 							id=340;
-							atlOffset=0.53941154;
+							atlOffset=0.46298027;
 						};
 					};
 					id=339;
-					atlOffset=0.53941154;
+					atlOffset=0.46298027;
 				};
 			};
 			id=338;
-			atlOffset=0.53941154;
+			atlOffset=0.46298027;
 		};
 		class Item11
 		{
