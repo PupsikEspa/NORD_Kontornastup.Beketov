@@ -592,13 +592,13 @@ class obrmp36_spawner_class //36 ОБрМП
     };
 };
 
-class obrmp37_spawner_class //37 ОБрМП
+class obrmp38_spawner_class //38 ОБрМП
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == obrmp37_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == obrmp38_spawner)"; // "(playerSide in [west,independent])"
     
-    class obrmp37_spawner_class
+    class obrmp38_spawner_class
 	{
-        displayName = "Запрос техники 37 ОБрМП";
+        displayName = "Запрос техники 38 ОБрМП";
         vehicles[] =
         {
 			{"NORD_BRDM2_UA",2,"true"},
@@ -606,7 +606,7 @@ class obrmp37_spawner_class //37 ОБрМП
 		};
         spawnPoints[] =
         {
-            {"1",{"obrmp37_spawnplace"}}
+            {"1",{"obrmp38_spawnplace"}}
         };
         
     };
