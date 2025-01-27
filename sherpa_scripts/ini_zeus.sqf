@@ -1,35 +1,3 @@
-if (!isDedicated) then {
-    ["Vostok - Сохранения", "Форс сохранение миссии", { 
-        [false,0] call grad_persistence_fnc_saveMission;
-    }] call zen_custom_modules_fnc_register;
-
-    ["Vostok - Сохранения", "Форс загрузка", { 
-        [false,0] call grad_persistence_fnc_loadMission;
-    }] call zen_custom_modules_fnc_register;
-
-    ["Vostok - Сохранения", "Удаление сейва", { 
-        ["Vostok_Balakleya_mission"] call grad_persistence_fnc_clearMissionData;
-    }] call zen_custom_modules_fnc_register;
-
-    ////////////////////////////////
-
-    ["Vostok - Ивентологи", "Старт ивента", { 
-        [] call vostok_fnc_start;
-    }] call zen_custom_modules_fnc_register;
-
-    ["Vostok - Ивентологи", "Победа РФ", { 
-        [] call vostok_fnc_winRus;
-    }] call zen_custom_modules_fnc_register;
-
-    ["Vostok - Ивентологи", "Победа Украины", { 
-        [] call vostok_fnc_winUkr;
-    }] call zen_custom_modules_fnc_register;
-    ["NORD", "Фикс красных панелек", { 
-        [] call nord_panelakFix;
-    }] call zen_custom_modules_fnc_register;
-} else {
-    // null
-};
 
 ["NORD", "Разрушить % зданий", {
     params [["_position", [0,0,0], [[]], 3], ["_objectUnderCursor", objNull, [objNull]]];

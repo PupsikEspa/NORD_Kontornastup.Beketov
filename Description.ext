@@ -22,21 +22,6 @@ wreckLimit = 1; //Количество подбитой техники на ка
 wreckRemovalMinTime = 600; //second
 wreckRemovalMaxTime = 900; //seconds
 
-class CfgFunctions
-{
-	#include "modules\grad-persistence\cfgFunctions.hpp"
-	class HP
-	{
-		class Client
-		{
-			file = "client";
-		};
-		class Server
-		{
-			file = "server";
-		};
-	};
-};
 //Discord info
 class CfgDiscordRichPresence {
     applicationID="1243289776384249896";             // Provided by discord
@@ -50,35 +35,6 @@ class CfgDiscordRichPresence {
     useTimeElapsed=1;             // Show time elapsed since the player connected (1 - true, 0 - false)
 };
 
-class CfgGradPersistence {
-    missionTag = "Korsac_Nord_mission";
-    loadOnMissionStart = 0  ;
-    missionWaitCondition = "true";
-    playerWaitCondition = "true";
-    playerWaitConditionLocal = "true";
-
-    //пресет для полного сохранения
-    saveUnits = 3;
-    saveVehicles = 3;
-    saveContainers = 3;
-    saveStatics = 3;
-    saveGradFortificationsStatics = 3;
-    saveMarkers = 3;
-    saveTasks = 3;
-    saveTriggers = 3;
-
-    savePlayerInventory = 0; 
-    savePlayerDamage = 1;
-    savePlayerPosition = 1;
-    savePlayerMoney = 0;
-    
-    blacklist[] = {
-        "B_Truck_01_mover_F",
-        "MapBoard_seismic_F"
-    };
-
-	class customVariables {};
-};
 
 class CfgDebriefingSections {
     class acex_killTracker {
