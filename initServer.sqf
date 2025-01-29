@@ -2,7 +2,6 @@ if (isServer) then {
 	save_var_hohol = 1;
 	clean_var_hohol = 1;
 	[] execVM "scripts\ehKillCrew.sqf";
-	[] execVM "scripts\saver.sqf";
 	[] execVM "sherpa_scripts\detectHeight.sqf";
 	[] spawn {
 		execVM "sherpa_scripts\ini_markerFPS.sqf"
