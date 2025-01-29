@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=130748;
+		nextID=130750;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=81354;
+		nextID=81414;
 	};
 	class Camera
 	{
-		pos[]={601.49561,42.511147,692.27283};
-		dir[]={0.44974923,-0.79090381,-0.41497841};
-		up[]={0.58127177,0.61193895,-0.53633356};
-		aside[]={-0.67812908,-2.0916923e-07,-0.73495072};
+		pos[]={632.23633,45.707138,585.02368};
+		dir[]={0.6065281,-0.63503075,0.47843689};
+		up[]={0.49859813,0.77247393,0.3933005};
+		aside[]={0.6193409,3.2503158e-07,-0.78515381};
 	};
 };
 binarizationWanted=0;
@@ -471,7 +471,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -497,7 +497,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -510,7 +510,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -523,7 +523,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -35952,7 +35952,7 @@ class Mission
 											side="West";
 											class Entities
 											{
-												items=12;
+												items=13;
 												class Item0
 												{
 													dataType="Object";
@@ -35965,7 +35965,7 @@ class Mission
 													flags=7;
 													class Attributes
 													{
-														description="Командир @3 ОПСпН";
+														description="Фламба @3 ОПСпН";
 														isPlayable=1;
 														class Inventory
 														{
@@ -36577,7 +36577,7 @@ class Mission
 													dataType="Object";
 													class PositionInfo
 													{
-														position[]={655.29999,22.141623,599.78601};
+														position[]={655.5993,22.135937,600.01288};
 														angles[]={0.025359632,5.2151661,0.014346607};
 													};
 													side="West";
@@ -36598,7 +36598,7 @@ class Mission
 													};
 													id=130285;
 													type="B_Survivor_F";
-													atlOffset=0.022453308;
+													atlOffset=0.01884079;
 													class CustomAttributes
 													{
 														class Attribute0
@@ -36635,7 +36635,7 @@ class Mission
 													dataType="Object";
 													class PositionInfo
 													{
-														position[]={654.633,22.137316,599.51697};
+														position[]={654.94836,22.177689,598.97205};
 														angles[]={0.025359632,5.2151661,0.014346607};
 													};
 													side="West";
@@ -36656,7 +36656,65 @@ class Mission
 													};
 													id=130287;
 													type="B_Survivor_F";
-													atlOffset=0.023752213;
+													atlOffset=0.03241539;
+													class CustomAttributes
+													{
+														class Attribute0
+														{
+															property="speaker";
+															expression="_this setspeaker _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="Male04ENG";
+																};
+															};
+														};
+														class Attribute1
+														{
+															property="pitch";
+															expression="_this setpitch _value;";
+															class Value
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0.99000001;
+																};
+															};
+														};
+														nAttributes=2;
+													};
+												};
+												class Item12
+												{
+													dataType="Object";
+													class PositionInfo
+													{
+														position[]={654.45801,22.191229,598.35999};
+														angles[]={0.025359632,5.2151661,0.014346607};
+													};
+													side="West";
+													flags=5;
+													class Attributes
+													{
+														description="Доктор";
+														isPlayable=1;
+														class Inventory
+														{
+															class uniform
+															{
+																typeName="Gen2_rs_MCCUU_mex_gloves_1_1";
+																isBackpack=0;
+															};
+															goggles="ltf_pyr_blclv2_cb";
+														};
+													};
+													id=130749;
+													type="B_Survivor_F";
+													atlOffset=0.032165527;
 													class CustomAttributes
 													{
 														class Attribute0
@@ -38497,19 +38555,19 @@ class Mission
 										};
 									};
 									id=341;
-									atlOffset=0.46298027;
+									atlOffset=0.45724487;
 								};
 							};
 							id=340;
-							atlOffset=0.46298027;
+							atlOffset=0.45724487;
 						};
 					};
 					id=339;
-					atlOffset=0.46298027;
+					atlOffset=0.45724487;
 				};
 			};
 			id=338;
-			atlOffset=0.46298027;
+			atlOffset=0.45724487;
 		};
 		class Item11
 		{
@@ -67621,7 +67679,7 @@ class Mission
 			type="";
 			a=100;
 			b=590.01929;
-			angle=349.8494;
+			angle=349.84937;
 			id=130000;
 			class CustomAttributes
 			{
