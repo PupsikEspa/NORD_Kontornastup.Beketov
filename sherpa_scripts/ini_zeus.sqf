@@ -1,4 +1,22 @@
+if (!isDedicated) then {
 
+    ["NORD - Ивентологи", "Старт ивента", { 
+        [] call nord_fnc_start;
+    }] call zen_custom_modules_fnc_register;
+
+    ["NORD - Ивентологи", "Победа РФ", { 
+        [] call nord_fnc_winRus;
+    }] call zen_custom_modules_fnc_register;
+
+    ["NORD - Ивентологи", "Победа Украины", { 
+        [] call nord_fnc_winUkr;
+    }] call zen_custom_modules_fnc_register;
+    ["NORD", "Фикс красных панелек", { 
+        [] call nord_panelakFix;
+    }] call zen_custom_modules_fnc_register;
+} else {
+    // null
+};
 ["NORD", "Разрушить % зданий", {
     params [["_position", [0,0,0], [[]], 3], ["_objectUnderCursor", objNull, [objNull]]];
 	_pos = "Land_HelipadEmpty_F" createVehicle _position;
@@ -28,7 +46,7 @@
    ] call zen_dialog_fnc_create; 
 }] call zen_custom_modules_fnc_register; 
 
-vostok_fnc_start = {
+nord_fnc_start = {
     [{
         missionNamespace setVariable ["isEvent", true, true];
         [] spawn {
@@ -44,27 +62,27 @@ vostok_fnc_start = {
             titleText ["<t color='#f09b67' size='1'>1</t><br/>", "PLAIN", -1, true, true];
             sleep 1;
             titleText ["<t color='#f06767' size='4'>В бой!</t><br/>", "PLAIN", -1, true, true];
-            playSound "battle_start";
+            playSound "audio\battle_start";
         };
     }] remoteExec ["call", -2, false];
 };
 
-vostok_fnc_winRus = {
+nord_fnc_winRus = {
     [{
         missionNamespace setVariable ["isEvent", false, true];
         [] spawn {
-            playSound "rus_victory";
+            playSound "audio\rus_victory";
             ["audio\rus_victory.paa"] spawn BIS_fnc_textTiles;
             titleText ["<t color='#ffffff' size='8'>Победа</t><t color='#1616a8' size='8'> Р<t color='#a81616' size='8'>Ф!</t></t><br/>", "PLAIN", -1, true, true];
         };
     }] remoteExec ["call", -2, false];
 };
 
-vostok_fnc_winUkr = {
+nord_fnc_winUkr = {
     [{
         missionNamespace setVariable ["isEvent", false, true];
         [] spawn {
-            playSound "ukr_victory";
+            playSound "audio\ukr_victory";
             ["audio\ukr_victory.paa"] spawn BIS_fnc_textTiles;
             titleText ["<t color='#1469d9' size='8'>Победа</t><t color='#d9d214' size='8'> Украины!</t><br/>", "PLAIN", -1, true, true];
         };
