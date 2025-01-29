@@ -62,7 +62,7 @@ nord_fnc_start = {
             titleText ["<t color='#f09b67' size='1'>1</t><br/>", "PLAIN", -1, true, true];
             sleep 1;
             titleText ["<t color='#f06767' size='4'>В бой!</t><br/>", "PLAIN", -1, true, true];
-            playSound "audio\battle_start.ogg";
+            playSound "battle_start";
         };
     }] remoteExec ["call", -2, false];
 };
@@ -71,7 +71,7 @@ nord_fnc_winRus = {
     [{
         missionNamespace setVariable ["isEvent", false, true];
         [] spawn {
-            playSound "audio\rus_victory.ogg";
+            playSound "rus_victory";
             ["audio\rus_victory.paa"] spawn BIS_fnc_textTiles;
             titleText ["<t color='#ffffff' size='8'>Победа</t><t color='#1616a8' size='8'> Р<t color='#a81616' size='8'>Ф!</t></t><br/>", "PLAIN", -1, true, true];
         };
@@ -82,7 +82,7 @@ nord_fnc_winUkr = {
     [{
         missionNamespace setVariable ["isEvent", false, true];
         [] spawn {
-            playSound "audio\ukr_victory.ogg";
+            playSound "ukr_victory";
             ["audio\ukr_victory.paa"] spawn BIS_fnc_textTiles;
             titleText ["<t color='#1469d9' size='8'>Победа</t><t color='#d9d214' size='8'> Украины!</t><br/>", "PLAIN", -1, true, true];
         };
