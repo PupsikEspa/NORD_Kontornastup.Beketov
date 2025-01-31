@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=130847;
+		nextID=130848;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=81774;
+		nextID=81834;
 	};
 	class Camera
 	{
-		pos[]={16254.229,62.24659,10732.234};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={11170.889,119.49657,7812.9146};
+		dir[]={-0.40379164,-0.47925276,0.77928066};
+		up[]={-0.22049053,0.87767506,0.42552596};
+		aside[]={0.88788962,6.3562766e-08,0.46006852};
 	};
 };
 binarizationWanted=0;
@@ -516,7 +516,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -555,7 +555,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -568,7 +568,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -581,7 +581,7 @@ class CustomAttributes
 		};
 		nAttributes=5;
 	};
-	class Category2
+	class Category3
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -598,7 +598,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category3
+	class Category4
 	{
 		name="Scenario";
 		class Attribute0
@@ -55990,19 +55990,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={672.3667,21.964558,624.08466};
-				angles[]={0.043208666,2.2587106,0.027641652};
+				position[]={672.36646,21.964966,624.08508};
+				angles[]={0.043214355,2.2587178,0.027646014};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addBackpackCargoGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n " this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n "};" \n "";
+				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addBackpackCargoGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""ltf_as_zeus"", 1]; " \n " this addItemCargoGlobal [""ltf_it_615"", 1]; " \n " this addItemCargoGlobal [""ltf_reapir"", 1];" \n " this addItemCargoGlobal [""Item_Mavic3T"", 1];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
 				name="msco73_ars";
 			};
 			id=99864;
 			type="rhs_spec_weapons_crate";
-			atlOffset=0.09620285;
+			atlOffset=0.096637726;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -68877,15 +68877,15 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={12579.528,44.62693,7523.3208};
-				angles[]={0,4.8310823,0};
+				position[]={12583.376,28.956404,7519.584};
+				angles[]={6.272377,4.8310823,6.2714767};
 			};
-			areaSize[]={11.406956,0,60.898727};
+			areaSize[]={9.8760853,0,55.986187};
 			areaIsRectangle=1;
 			flags=1;
 			id=130753;
 			type="ModuleHideTerrainObjects_F";
-			atlOffset=15.670527;
+			atlOffset=0.09859848;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -68922,15 +68922,15 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11220.565,22.044994,7727.8706};
-				angles[]={0,5.1115246,0};
+				position[]={11220.565,13.108693,7727.8706};
+				angles[]={6.2614222,5.1115246,0};
 			};
 			areaSize[]={5,0,18.841644};
 			areaIsRectangle=1;
 			flags=1;
 			id=130754;
 			type="ModuleHideTerrainObjects_F";
-			atlOffset=8.9707975;
+			atlOffset=0.034496307;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -68967,15 +68967,15 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11290.63,38.256752,7640.3247};
-				angles[]={0,2.0321348,0};
+				position[]={11289.123,13.738281,7637.04};
+				angles[]={0.0049555185,2.0321348,0.0091544911};
 			};
 			areaSize[]={14.981771,0,44.927608};
 			areaIsRectangle=1;
 			flags=1;
 			id=130755;
 			type="ModuleHideTerrainObjects_F";
-			atlOffset=24.535988;
+			atlOffset=9.2506409e-05;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -69012,15 +69012,14 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11204.063,21.539028,7684.644};
-				angles[]={0,5.1115246,0};
+				position[]={11203.045,12.552518,7680.1147};
+				angles[]={0.0032936386,5.1115246,0.0023920804};
 			};
 			areaSize[]={12.351274,0,33.406372};
 			areaIsRectangle=1;
 			flags=1;
 			id=130756;
 			type="ModuleHideTerrainObjects_F";
-			atlOffset=8.9990253;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -69106,7 +69105,7 @@ class Mission
 			colorName="ColorBlue";
 			a=1559.8296;
 			b=50.023998;
-			angle=165.77527;
+			angle=165.77525;
 			id=130764;
 			class CustomAttributes
 			{
@@ -69460,7 +69459,7 @@ class Mission
 			type="";
 			a=101.466;
 			b=68.323997;
-			angle=348.60797;
+			angle=348.60794;
 			id=130768;
 			atlOffset=-0.000248909;
 			class CustomAttributes
@@ -69703,7 +69702,7 @@ class Mission
 			colorName="ColorYellow";
 			a=100.574;
 			b=7.0717773;
-			angle=344.34741;
+			angle=344.34738;
 			id=130771;
 			atlOffset=0.020320892;
 			class CustomAttributes
@@ -69761,7 +69760,7 @@ class Mission
 			colorName="ColorYellow";
 			a=100.56774;
 			b=7.0717773;
-			angle=344.34741;
+			angle=344.34738;
 			id=130772;
 			atlOffset=-0.89865875;
 			class CustomAttributes
@@ -69819,7 +69818,7 @@ class Mission
 			colorName="ColorYellow";
 			a=72.534714;
 			b=7.0717773;
-			angle=74.363876;
+			angle=74.363869;
 			id=130773;
 			atlOffset=0.30057335;
 			class CustomAttributes
@@ -69934,7 +69933,7 @@ class Mission
 			colorName="ColorYellow";
 			a=75.347366;
 			b=7.0717773;
-			angle=78.624496;
+			angle=78.624489;
 			id=130775;
 			class CustomAttributes
 			{
@@ -69991,7 +69990,7 @@ class Mission
 			colorName="ColorYellow";
 			a=108.55224;
 			b=7.0717773;
-			angle=348.60806;
+			angle=348.60803;
 			id=130776;
 			atlOffset=0.19254494;
 			class CustomAttributes
@@ -70049,7 +70048,7 @@ class Mission
 			colorName="ColorYellow";
 			a=75.576042;
 			b=7.0717773;
-			angle=78.624496;
+			angle=78.624489;
 			id=130777;
 			class CustomAttributes
 			{
@@ -70106,7 +70105,7 @@ class Mission
 			colorName="ColorYellow";
 			a=108.50271;
 			b=7.0717773;
-			angle=348.60806;
+			angle=348.60803;
 			id=130778;
 			class CustomAttributes
 			{
@@ -70220,7 +70219,7 @@ class Mission
 			colorName="ColorCIV";
 			a=25;
 			b=892.55493;
-			angle=291.68283;
+			angle=291.6828;
 			id=130780;
 			atlOffset=0.00010871887;
 			class CustomAttributes
@@ -72379,7 +72378,7 @@ class Mission
 			colorName="ColorCIV";
 			a=25;
 			b=718.34192;
-			angle=178.36615;
+			angle=178.36613;
 			id=130842;
 			class CustomAttributes
 			{
@@ -72438,6 +72437,7 @@ class Mission
 			b=588.65192;
 			angle=279.97702;
 			id=130843;
+			atlOffset=1.5258789e-05;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -72493,7 +72493,7 @@ class Mission
 			colorName="ColorCIV";
 			a=25;
 			b=710.42523;
-			angle=19.905827;
+			angle=19.905825;
 			id=130845;
 			atlOffset=2.7064724;
 			class CustomAttributes
@@ -72551,7 +72551,7 @@ class Mission
 			colorName="ColorCIV";
 			a=25;
 			b=171.36311;
-			angle=40.074589;
+			angle=40.074585;
 			id=130846;
 			atlOffset=3.6853218;
 			class CustomAttributes
