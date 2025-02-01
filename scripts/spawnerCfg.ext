@@ -89,15 +89,16 @@ class logistic_rf_spawner_class //ящики рф
             {"rhs_7ya37_1_single",-1,"true", "Лента 127х108"},
             {"tbd_mortars_100mm_box_stal",-1,"true"},
 			{"tbd_mortars_100mm_box_heat",-1,"true"},
+            {"rhs_7ya37_1_single",-1,"true", "АГС-30 Короб ВОГ-17А"},
+            {"rhs_7ya37_1_single",-1,"true", "АГС-30 Короб ВОГ-17М"},
+            {"rhs_7ya37_1_single",-1,"true", "АГС-30 Короб ВОГ-30"},
+            {"rhs_7ya37_1_single",-1,"true", "ГРАД-П"},
 			{"ACE_Track",-1,"true"},
 			{"ACE_Wheel",-1,"true"},
 			{"tbd_mortar_120mm_box",-1,"true"},
 			{"tbd_mortars_100mm_box_he",-1,"true"},
             {"tbd_2b9_vasilek_magazine",2,"true"},
-            {"tbd_mortar_82mm_box_he",-1,"true"},
-            {"boxes_bk_vtn_ags_type1",-1,"true"},
-            {"boxes_bk_vtn_ags_type2",-1,"true"},
-            {"boxes_bk_vtn_ags_type3",-1,"true"}
+            {"tbd_mortar_82mm_box_he",-1,"true"}
 
         };
         spawnPoints[] =
@@ -473,6 +474,10 @@ class logistic_vsu_spawner_class //ящики всу
             {"rhs_7ya37_1_single",-1,"true", "Лента 127х99 Красный трассер"},
             {"rhs_7ya37_1_single",-1,"true", "Лента 127х99 Зелёный трассер"},
             {"rhs_7ya37_1_single",-1,"true", "Лента 127х99"},
+            {"rhs_7ya37_1_single",-1,"true", "АГС-30 Короб ВОГ-17А"},
+            {"rhs_7ya37_1_single",-1,"true", "АГС-30 Короб ВОГ-17М"},
+            {"rhs_7ya37_1_single",-1,"true", "АГС-30 Короб ВОГ-30"},
+            {"rhs_7ya37_1_single",-1,"true", "ГРАД-П"},
 			{"tbd_mortars_100mm_box_stal",-1,"true"},
 			{"tbd_mortars_100mm_box_heat",-1,"true"},
 			{"ACE_Track",-1,"true"},
@@ -480,10 +485,7 @@ class logistic_vsu_spawner_class //ящики всу
 			{"tbd_mortar_120mm_box",-1,"true"},
 			{"tbd_mortars_100mm_box_he",-1,"true"},
             {"tbd_2b9_vasilek_magazine",2,"true"},
-            {"tbd_mortar_82mm_box_he",-1,"true"},
-            {"boxes_bk_vtn_ags_type1",-1,"true"},
-            {"boxes_bk_vtn_ags_type2",-1,"true"},
-            {"boxes_bk_vtn_ags_type3",-1,"true"}
+            {"tbd_mortar_82mm_box_he",-1,"true"}
             
         };
         spawnPoints[] =
