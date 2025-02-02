@@ -30384,8 +30384,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""obrmp38_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="obrmp38_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""ogshbr128_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="ogshbr128_spawner";
 																disableSimulation=1;
 															};
 															id=316;
@@ -30725,7 +30725,7 @@ class Mission
 				position[]={557.44,22.297001,638.67102};
 				angles[]={0.0040559713,4.529798,6.2683268};
 			};
-			title="38 ОБрМП";
+			title="128 ОГШБр";
 			id=329;
 			atlOffset=-0.00046539307;
 		};
@@ -30752,7 +30752,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="obrmp38_spawnplace";
+				name="ogshbr128_spawnplace";
 				disableSimulation=1;
 			};
 			id=333;
@@ -32488,7 +32488,7 @@ class Mission
 													flags=7;
 													class Attributes
 													{
-														description="Командир @38 ОБрМП";
+														description="Командир @128 ОГШБр";
 														isPlayable=1;
 														class Inventory
 														{
@@ -33511,8 +33511,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="obrmp38";
-												init="this setVariable [""regArs"", obrmp38_ars, true];" \n "this setVariable [""regSpawner"", obrmp38_spawner, true];";
+												name="ogshbr128";
+												init="this setVariable [""regArs"", ogshbr128_ars, true];" \n "this setVariable [""regSpawner"", ogshbr128_spawner, true];";
 											};
 											id=123093;
 											class CustomAttributes
@@ -33526,7 +33526,7 @@ class Mission
 														class data
 														{
 															singleType="STRING";
-															value="38 ОБрМП";
+															value="128 ОГШБр";
 														};
 													};
 												};
@@ -39222,7 +39222,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addBackpackCargoGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
-				name="obrmp38_ars";
+				name="ogshbr128_ars";
 			};
 			id=281;
 			type="rhs_spec_weapons_crate";
@@ -60135,7 +60135,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="obrmp38_plate";
+						name="ogshbr128_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
