@@ -15,8 +15,8 @@ class common_rf_spawner_class //общий рф
             {"b_afougf_D30",2,"true"},
             {"B_GradP_01_O",1,"true"},
             {"nord_mtlb_rus",10,"true"},
-            {"RUS_MSV_West_kamaz63501at",1,"true"},
-			{"RUS_VKS_south_mi8amtsh_Unrmed",2,"true"},
+            {"VTN_KAMAZ63501_AT_EMR",1,"true"},
+			{"RUS_VKS_east_mi8amtsh_Unrmed",2,"true"},
 		};
         spawnPoints[] =
         {
@@ -35,7 +35,7 @@ class common_vks_spawner_class //ВКС
         displayName = "Запрос техники ВКС";
         vehicles[] =
         {
-            {"RUS_VKS_south_mi8amtsh",1,"true"},
+            {"RUS_VKS_east_mi8amtsh",1,"true"},
             {"RUS_VKS_south_mi24v_23mm_bez_pturov",1,"true"},
             {"RUS_VKS_east_ka52",1,"true"},
 		};
@@ -126,6 +126,7 @@ class dshd7_spawner_class //7 ДШД
 		    {"MMM_KamAZ4386_BM30D",1,"true"},
 		    {"RUS_GRU_east_kamaz63968",1,"true"},
 		    {"rhsgref_tla_offroad",1,"true"},
+		    {"RUS_MSV_West_t72b3m",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -166,9 +167,10 @@ class obrmp155_spawner_class //155 ОБрМП
         {
 			{"O_T80BVM_M",1,"true"},
 			{"rhs_bmp3mera_msv",1,"true"},
+			{"RUS_MSV_bmp2",1,"true"},
 			{"RUS_MSV_east_btr82a",1,"true"},
 			{"RUS_VDV_SpN_asn233115",2,"true"},
-			{"RUS_GRU_east_btr80",1,"true"},
+			{"RUS_MSV_east_btr80",1,"true"},
 			{"RUS_GRU_east_kamaz63968",1,"true"},
 			{"rhsgref_tla_offroad",1,"true"},
 		};
@@ -189,9 +191,9 @@ class timer_spawner_class //Батальон «Тимер»
         displayName = "Запрос техники Батальон «Тимер»";
         vehicles[] =
         {
-			{"rhs_bmp1p_tv",1,"true"},
-			{"nord_uaz452b_spn",2,"true"},
-			{"TSB_BRDM2_r",2,"true"},
+			{"nord_uaz452b_spn",1,"true"},
+			{"TSB_BRDM2_r",1,"true"},
+			{"RUS_MSV_bmp1",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -248,11 +250,10 @@ class obrmp810_spawner_class //810 ОБрМП
         displayName = "Запрос техники 810 ОБрМП";
         vehicles[] =
         {
-			{"RUS_MSV_West_t72b3m",1,"true"},
 			{"rhs_bmp3mera_msv",1,"true"},
-			{"RUS_MSV_bmp2",1,"true"},
+			{"RUS_MSV_east_btr82a",1,"true"},
 			{"RUS_VDV_SpN_asn233115",2,"true"},
-			{"RUS_GRU_east_btr80",1,"true"},
+			{"RUS_MSV_east_btr80",1,"true"},
 			{"RUS_GRU_east_kamaz63968",1,"true"},
 			{"rhsgref_tla_offroad",1,"true"},
 		};
@@ -275,17 +276,16 @@ class obrspn45_spawner_class //45 ОБрСпН
         displayName = "Запрос техники 45 ОБрСпН";
         vehicles[] =
         {
-			{"RUS_MSV_east_btr82a",1,"true"},
 			{"RUS_VKS_east_mi8amtsh",1,"true"},
 			{"O_T80BVM_M",1,"true"},
 			{"rhs_bmd4ma_vdv",1,"true"},
+			{"RUS_MSV_east_btr82a",1,"true"},
 			{"RUS_VDV_SpN_asn233115",3,"true"},
 			{"rhs_tigr_sts_msv",1,"true"},
 			{"RUS_VDV_SpN_asn233115sts",1,"true"},
 			{"bs_tigr_atgm",1,"true"},
-			{"RUS_GRU_east_kamaz63968",1,"true"},
+			{"RUS_GRU_east_kamaz63968 ",1,"true"},
 			{"rhsgref_tla_offroad",1,"true"},
-			
         };
         spawnPoints[] =
         {
@@ -305,6 +305,8 @@ class volki_spawner_class //ОМОН «Финист» (ПУСТО)
         displayName = "Запрос техники ДУБ Царские волки";
         vehicles[] =
         {
+			{"nord_uaz452b_spn",1,"true"},
+			{"TSB_BRDM2_r",1,"true"},
         };
         spawnPoints[] =
         {
@@ -324,10 +326,9 @@ class dshr_rusich_spawner_class //ДШРГ «Русич»
         vehicles[] =
         {
 			{"RUS_MSV_bmp2",1,"true"},
-			{"RUS_MSV_east_btr82a",1,"true"},
 			{"nord_uaz452b_spn",2,"true"},
 			{"RUS_VDV_SpN_asn233115",2,"true"},
-			{"RUS_GRU_east_btr80",1,"true"},
+			{"RUS_MSV_east_btr80",1,"true"},
 			{"rhsgref_tla_offroad",1,"true"},
         };
         spawnPoints[] =
@@ -347,7 +348,7 @@ class obrspn22_spawner_class //22 ОБрСпН
         displayName = "Запрос техники 22 ОБрСпН";
         vehicles[] =
         {
-			{"nord_t80bv_v",2,"true"},
+			{"nord_t80bv_r",2,"true"},
 			{"RUS_MSV_West_t90m",1,"true"},
 			{"bs_BMP_2M",1,"true"},
 			{"RUS_MSV_east_btr82a",1,"true"},
