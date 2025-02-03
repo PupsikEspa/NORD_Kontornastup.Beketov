@@ -16,12 +16,13 @@ zeusmodule = [
 	"76561198852035938", /// Капуста
 	"76561199221988240", /// Fanta
 	"76561199287760678", /// Шилов
+	"76561198453561118", /// Типок
 	"76561198055139490" /// ГБР теыты [8 ОПСпН] Бiйрактар
 
 	
 ];
 if (!(_playerUID in zeusmodule)) exitwith {};
-if ((side player != civilian) && (_playerUID != "76561198432363921") && (_playerUID != "76561198284004882") && (_playerUID !="76561198135788033") && (_playerUID != "76561199287760678") && (_playerUID != "76561198216667587")) exitwith {};
+if ((side player != civilian) && (_playerUID != "76561198432363921") && (_playerUID != "76561198284004882") && (_playerUID !="76561198135788033") && (_playerUID != "76561198216667587")) exitwith {};
 
 _index = zeusmodule find _playerUID;
 _dedman = format["dedman%1", _index];
