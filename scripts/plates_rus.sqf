@@ -7,4 +7,4 @@ obrspn22_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrspn22_plate_ca.
 dshp56_plate setObjectTextureGlobal [0, "scripts\plates_rus\dshp56_plate_ca.paa"];
 obrmp155_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp155_plate_ca.paa"];
 dshd76_plate setObjectTextureGlobal [0, "scripts\plates_rus\dshd76_plate_ca.paa"];
-obrmp40_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp40_plate_ca.paa"];
+obrmp810_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp810_plate_ca.paa"];

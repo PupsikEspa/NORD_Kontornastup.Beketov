@@ -239,13 +239,13 @@ class dshd76_spawner_class //76 ДШД
         
     };
 };
-class obrmp40_spawner_class //40 ОБрМП
+class obrmp810_spawner_class //810 ОБрМП
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == obrmp40_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == obrmp810_spawner)"; // "(playerSide in [west,independent])"
     
-    class obrmp40_spawner_class
+    class obrmp810_spawner_class
 	{
-        displayName = "Запрос техники 40 ОБрМП";
+        displayName = "Запрос техники 810 ОБрМП";
         vehicles[] =
         {
 			{"RUS_MSV_West_t72b3m",1,"true"},
@@ -258,7 +258,7 @@ class obrmp40_spawner_class //40 ОБрМП
 		};
         spawnPoints[] =
         {
-            {"1",{"obrmp40_spawnplace"}}
+            {"1",{"obrmp810_spawnplace"}}
         };
         
     };
@@ -296,19 +296,19 @@ class obrspn45_spawner_class //45 ОБрСпН
     };
 };
 
-class finist_spawner_class //ОМОН «Финист» (ПУСТО)
+class volki_spawner_class //ОМОН «Финист» (ПУСТО)
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == finist_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == volki_spawner)"; // "(playerSide in [west,independent])"
     
-    class finist_spawner_class
+    class volki_spawner_class
 	{
-        displayName = "Запрос техники ОМОН «Финист»";
+        displayName = "Запрос техники ДУБ Царские волки";
         vehicles[] =
         {
         };
         spawnPoints[] =
         {
-            {"1",{"finist_spawnplace"}}
+            {"1",{"volki_spawnplace"}}
         };
         
     };
