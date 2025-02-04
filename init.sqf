@@ -74,3 +74,6 @@ addMissionEventHandler ["EntityKilled", {
 		missionNamespace setVariable [(getDescription _unit) select 0, class - 1];
 	};
 }];
+
+"extDB3" callExtension "9:ADD_DATABASE:Nord_DB";
+"extDB3" callExtension "9:ADD_DATABASE_PROTOCOL:Nord_DB:SQL:NP";
