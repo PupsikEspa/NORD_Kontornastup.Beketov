@@ -5,29 +5,29 @@ class EditorData
 	angleGridStep=1.5707964;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=1537;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=132656;
+		nextID=132660;
 	};
 	class MarkerIDProvider
 	{
-		nextID=1091;
+		nextID=1097;
 	};
 	class LayerIndexProvider
 	{
-		nextID=83356;
+		nextID=83464;
 	};
 	class Camera
 	{
-		pos[]={13027.942,33.961895,9818.8867};
-		dir[]={-0.12646976,-0.47762111,0.86943012};
-		up[]={-0.068753041,0.87856442,0.47265014};
-		aside[]={0.98960042,7.4796844e-08,0.1439486};
+		pos[]={13096.806,198.90315,9819.1816};
+		dir[]={-0.21993582,-0.9498477,0.22232623};
+		up[]={-0.66800416,0.31271219,0.67526436};
+		aside[]={0.71092254,-6.9383532e-08,0.70327908};
 	};
 };
 binarizationWanted=0;
@@ -94,13 +94,14 @@ addons[]=
 	"Redd_Marder_1A5",
 	"rhsusf_c_m11xx",
 	"afou_c_offroad",
-	"afou_c_offroad_dshkm"
+	"afou_c_offroad_dshkm",
+	"wmt_tasks"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=56;
+		items=57;
 		class Item0
 		{
 			className="A3_Props_F_Enoch";
@@ -462,6 +463,11 @@ class AddonsMetaData
 			author="Barman75, Brezerk";
 			url="https://bit.ly/ArmaUA";
 		};
+		class Item56
+		{
+			className="WMT_Tasks";
+			name="wmt_tasks";
+		};
 	};
 };
 dlcs[]=
@@ -521,7 +527,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -560,7 +566,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -573,7 +579,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -30142,7 +30148,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=595;
+		items=599;
 		class Item0
 		{
 			dataType="Layer";
@@ -69189,7 +69195,7 @@ class Mission
 			type="";
 			a=100;
 			b=1139.1451;
-			angle=13.721586;
+			angle=13.721585;
 			id=130017;
 			atlOffset=20.122955;
 			class CustomAttributes
@@ -71647,7 +71653,7 @@ class Mission
 			dataType="Layer";
 			name="Checkpoint with bunker (Chechen War style)";
 			id=131442;
-			atlOffset=-0.022277832;
+			atlOffset=-20.307262;
 		};
 		class Item536
 		{
@@ -71679,7 +71685,7 @@ class Mission
 			dataType="Layer";
 			name="Bunker (Large) #O2";
 			id=131566;
-			atlOffset=-0.10034943;
+			atlOffset=-20.307262;
 		};
 		class Item539
 		{
@@ -71707,7 +71713,7 @@ class Mission
 			dataType="Layer";
 			name="Bunker Tower (Heavy) #O";
 			id=131644;
-			atlOffset=-0.036464691;
+			atlOffset=-20.307262;
 		};
 		class Item543
 		{
@@ -71798,7 +71804,7 @@ class Mission
 			dataType="Layer";
 			name="Watchtower #O9";
 			id=132001;
-			atlOffset=6.4623108;
+			atlOffset=-20.307262;
 		};
 		class Item556
 		{
@@ -71840,14 +71846,14 @@ class Mission
 			dataType="Layer";
 			name="Watchtower #O7";
 			id=132144;
-			atlOffset=0.015644073;
+			atlOffset=-20.307262;
 		};
 		class Item562
 		{
 			dataType="Layer";
 			name="Bunker (Large) #O4";
 			id=132168;
-			atlOffset=-0.59807205;
+			atlOffset=-20.307262;
 		};
 		class Item563
 		{
@@ -71861,7 +71867,7 @@ class Mission
 			dataType="Layer";
 			name="Bunker Tower (Light) #O";
 			id=132212;
-			atlOffset=-0.022174835;
+			atlOffset=-20.307262;
 		};
 		class Item565
 		{
@@ -71882,21 +71888,21 @@ class Mission
 			dataType="Layer";
 			name="Sandbags #O";
 			id=132278;
-			atlOffset=-0.14909935;
+			atlOffset=-20.307262;
 		};
 		class Item568
 		{
 			dataType="Layer";
 			name="Vehicle Net #O";
 			id=132293;
-			atlOffset=-0.025617599;
+			atlOffset=-20.307262;
 		};
 		class Item569
 		{
 			dataType="Layer";
 			name="Watchtower #O4";
 			id=132306;
-			atlOffset=-0.021381378;
+			atlOffset=-20.307262;
 		};
 		class Item570
 		{
@@ -71910,49 +71916,49 @@ class Mission
 			dataType="Layer";
 			name="Bunker Large #O";
 			id=132352;
-			atlOffset=-0.20017242;
+			atlOffset=-20.307262;
 		};
 		class Item572
 		{
 			dataType="Layer";
 			name="сектор1";
 			id=132377;
-			atlOffset=0.087619781;
+			atlOffset=-20.307262;
 		};
 		class Item573
 		{
 			dataType="Layer";
 			name="сектор1";
 			id=132384;
-			atlOffset=-0.10688019;
+			atlOffset=-20.307262;
 		};
 		class Item574
 		{
 			dataType="Layer";
 			name="сектор1";
 			id=132392;
-			atlOffset=1.1979465;
+			atlOffset=-20.307262;
 		};
 		class Item575
 		{
 			dataType="Layer";
 			name="сектор1";
 			id=132399;
-			atlOffset=0.51027679;
+			atlOffset=-20.307262;
 		};
 		class Item576
 		{
 			dataType="Layer";
 			name="сектор1";
 			id=132407;
-			atlOffset=-0.20087814;
+			atlOffset=-20.307262;
 		};
 		class Item577
 		{
 			dataType="Layer";
 			name="сектор1";
 			id=132415;
-			atlOffset=-0.015071869;
+			atlOffset=-20.307262;
 		};
 		class Item578
 		{
@@ -72073,21 +72079,21 @@ class Mission
 			dataType="Layer";
 			name="Generator #B";
 			id=132457;
-			atlOffset=-0.06829071;
+			atlOffset=-20.307262;
 		};
 		class Item581
 		{
 			dataType="Layer";
 			name="Field Barracks #B2";
 			id=132588;
-			atlOffset=-0.0082435608;
+			atlOffset=-20.307262;
 		};
 		class Item582
 		{
 			dataType="Layer";
 			name="Radio Tower #O";
 			id=132620;
-			atlOffset=-0.0021324158;
+			atlOffset=-20.307262;
 		};
 		class Item583
 		{
@@ -72764,6 +72770,485 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item595
+		{
+			dataType="Marker";
+			position[]={13064.6,27.622,9860.9697};
+			name="t1";
+			markerType="RECTANGLE";
+			type="";
+			a=64.667;
+			b=58.928001;
+			id=132656;
+			atlOffset=0.52334023;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item596
+		{
+			dataType="Marker";
+			position[]={12851.354,13.432,8921.0166};
+			name="t2";
+			markerType="RECTANGLE";
+			type="";
+			a=64.716003;
+			b=58.928001;
+			id=132657;
+			atlOffset=0.5242815;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item597
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={13056.796,27.295696,9852.7129};
+				angles[]={0.006754424,0,6.2548237};
+			};
+			id=132658;
+			type="WMT_Task_Point";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="WMT_Task_Point_Marker";
+					expression="_this setVariable ['Marker',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="t1";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="WMT_Task_Point_Condition";
+					expression="_this setVariable ['Condition',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="true";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="WMT_Task_Point_Message";
+					expression="_this setVariable ['Message',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="первый сектор";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="WMT_Task_Point_MaxHeight";
+					expression="_this setVariable ['MaxHeight',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=30;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="WMT_Task_Point_EasyCapture";
+					expression="_this setVariable ['EasyCapture',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="WMT_Task_Point_AutoLose";
+					expression="_this setVariable ['AutoLose',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=4;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="WMT_Task_Point_Timer";
+					expression="_this setVariable ['Timer',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=10;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="WMT_Task_Point_CaptureCount";
+					expression="_this setVariable ['CaptureCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=3;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="WMT_Task_Point_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=4;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="WMT_Task_Point_MinHeight";
+					expression="_this setVariable ['MinHeight',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=-5;
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="WMT_Task_Point_DefCount";
+					expression="_this setVariable ['DefCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				class Attribute11
+				{
+					property="WMT_Task_Point_Lock";
+					expression="_this setVariable ['Lock',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute12
+				{
+					property="WMT_Task_Point_AdvantagePercent";
+					expression="_this setVariable ['AdvantagePercent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				nAttributes=13;
+			};
+		};
+		class Item598
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={12830.195,13.75616,8901.9541};
+			};
+			id=132659;
+			type="WMT_Task_Point";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="WMT_Task_Point_Marker";
+					expression="_this setVariable ['Marker',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="t2";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="WMT_Task_Point_Condition";
+					expression="_this setVariable ['Condition',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="true";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="WMT_Task_Point_Message";
+					expression="_this setVariable ['Message',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="второй сектор";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="WMT_Task_Point_MaxHeight";
+					expression="_this setVariable ['MaxHeight',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=30;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="WMT_Task_Point_EasyCapture";
+					expression="_this setVariable ['EasyCapture',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="WMT_Task_Point_AutoLose";
+					expression="_this setVariable ['AutoLose',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=4;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="WMT_Task_Point_Timer";
+					expression="_this setVariable ['Timer',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=10;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="WMT_Task_Point_CaptureCount";
+					expression="_this setVariable ['CaptureCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=3;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="WMT_Task_Point_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=4;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="WMT_Task_Point_MinHeight";
+					expression="_this setVariable ['MinHeight',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=-5;
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="WMT_Task_Point_DefCount";
+					expression="_this setVariable ['DefCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				class Attribute11
+				{
+					property="WMT_Task_Point_Lock";
+					expression="_this setVariable ['Lock',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute12
+				{
+					property="WMT_Task_Point_AdvantagePercent";
+					expression="_this setVariable ['AdvantagePercent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				nAttributes=13;
 			};
 		};
 	};
