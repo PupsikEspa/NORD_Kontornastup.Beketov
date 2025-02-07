@@ -137,24 +137,6 @@ class dshd7_spawner_class //7 ДШД
     };
 };
 
-class dshp56_spawner_class //56 ДШП
-{
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == dshp56_spawner)"; // "(playerSide in [west,independent])"
-    
-    class dshp56_spawner_class
-	{
-        displayName = "Запрос техники 56 ДШП";
-        vehicles[] =
-        {
-			{"",,"true"},
-		};
-        spawnPoints[] =
-        {
-            {"1",{"dshp56_spawnplace"}}
-        };
-        
-    };
-};
 
 class obrmp155_spawner_class //155 ОБрМП
 {
@@ -267,6 +249,25 @@ class obrmp810_spawner_class //810 ОБрМП
 
 
 // РУСНЯВЫЕ СПНЫ
+class obrmp336_spawner_class //336 ОБрМП
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == obrmp336_spawner)"; // "(playerSide in [west,independent])"
+    
+    class obrmp336_spawner_class
+	{
+        displayName = "Запрос техники 336 ОБрМП";
+        vehicles[] =
+        {
+			{"bs_tigr_atgm",9,"true"}
+		};
+        spawnPoints[] =
+        {
+            {"1",{"obrmp336_spawnplace"}}
+        };
+        
+    };
+};
+
 class obrspn45_spawner_class //45 ОБрСпН
 {
     conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == obrspn45_spawner)"; // "(playerSide in [west,independent])"
@@ -594,27 +595,7 @@ class obrmp36_spawner_class //36 ОБрМП
     };
 };
 
-class ogshbr128_spawner_class //128 ОГШБр
-{
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == ogshbr128_spawner)"; // "(playerSide in [west,independent])"
-    
-    class ogshbr128_spawner_class
-	{
-        displayName = "Запрос техники 128 ОГШБр";
-        vehicles[] =
-        {
-			{"rhsusf_m1151_usarmy_wd",1,"true"},
-			{"rhsusf_m1043_w_mk19",1,"true"},
-			{"rhsusf_m1045_w",1,"true"},
-			{"b_afougf_offroad_01",1,"true"},
-		};
-        spawnPoints[] =
-        {
-            {"1",{"ogshbr128_spawnplace"}}
-        };
-        
-    };
-};
+
 class oshb425_spawner_class //425 ОШБ
 {
     conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == oshb425_spawner)"; // "(playerSide in [west,independent])"
@@ -666,6 +647,28 @@ class ombr47_spawner_class //47 ОМБр
         spawnPoints[] =
         {
             {"1",{"ombr47_spawnplace"}}
+        };
+        
+    };
+};
+
+class gurbratstvo_spawner_class //ГУР "Братство"
+{
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == gurbratstvo_spawner)"; // "(playerSide in [west,independent])"
+    
+    class gurbratstvo_spawner_class
+	{
+        displayName = "Запрос техники ГУР 'Братство'";
+        vehicles[] =
+        {
+			{"rhsusf_m1151_usarmy_wd",1,"true"},
+			{"rhsusf_m1043_w_mk19",1,"true"},
+			{"rhsusf_m1045_w",1,"true"},
+			{"b_afougf_offroad_01",1,"true"},
+		};
+        spawnPoints[] =
+        {
+            {"1",{"gurbratstvo_spawnplace"}}
         };
         
     };
