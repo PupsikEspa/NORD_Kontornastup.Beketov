@@ -258,7 +258,6 @@ class obrmp336_spawner_class //336 ОБрМП
         displayName = "Запрос техники 336 ОБрМП";
         vehicles[] =
         {
-			{"bs_tigr_atgm",9,"true"}
 		};
         spawnPoints[] =
         {
