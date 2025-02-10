@@ -2,17 +2,6 @@
  
 // -------------- ВС РФ ---------------
 
-vks_class = [] spawn /// 
-{
-	_boxes = [vks_ars];
-	{
-	_box = _x;
-	_list = ["rhs_zsh7a_mike","rhs_zsh7a_mike_green_alt","rhs_zsh7a_mike_alt","rhs_zsh7a_mike_green","rhs_zsh7a","rhs_zsh7a_alt","rhs_fieldcap_digi","rhs_fieldcap_digi2","rhs_uniform_df15_tan","rhs_uniform_vkpo","rhs_uniform_vkpo_alt","rhs_uniform_vkpo_gloves","rhs_uniform_vkpo_gloves_alt","rhs_uniform_df15","rhs_vydra_3m","rhs_chicom","rhs_6sh92_headset","rhs_6sh92_digi","rhs_6sh92_digi_headset","rhs_6sh92_digi_radio","rhs_6sh92_vog","rhs_6sh92_vog_headset","rhs_6sh92_radio","rhs_6sh92_digi_vog_headset","rhs_6sh92_digi_vog","rhs_6sh92_vsr_headset","rhs_6sh92_vsr_radio","rhs_6sh92_vsr_vog_headset","rhs_6sh92_vsr_vog","rhs_6sh92_vsr","rhs_6b45_light","rhs_6b45_rifleman","rhs_6b45_rifleman_2","rhs_6b45","rhs_6b43","rhs_weap_aks74u","rhs_weap_aks74","rhs_weap_ak74m_fullplum","rhs_weap_ak74m_fullplum_npz","rhs_weap_makarov_pm","rhs_weap_pya","hgun_Rook40_F","rhs_acc_1p87","rhs_mag_9x18_8_57N181S","rhs_mag_9x19_17","rhs_mag_9x19_7n31_17","rhs_rk_sht_30_emr","TFAR_mr3000","TFAR_mr3000_rhs","rhs_rd54","rhs_rd54_emr1","rhs_rd54_flora2","rhs_balaclava","rhs_balaclava1_olive","rhs_googles_clear","rhs_googles_black","Armband_White_large","Armband_White_XL","Armband_White_XL2","Armband_White","Armband_White_medium","Armband_White_medium2","rhs_1PN138","Armband_White_large_NVG","Armband_White_XL_NVG","Armband_White_XL2_NVG","Armband_White_NVG","Armband_White_medium_NVG","Armband_White_medium2_NVG","Binocular","ItemMap","ItemCompass","ItemWatch","ACE_Altimeter","TFAR_microdagr","O_UavTerminal","ItemGPS","rhs_mag_rgd5","rhs_mag_rgo","ACE_Chemlight_White","ACE_Chemlight_IR","ACE_Chemlight_UltraHiOrange","ACE_Chemlight_Orange","rhs_mag_f1","rhs_mag_rdg2_black","rhs_mag_rdg2_white","kat_aatKit","ACE_DefusalKit","kat_lorazepam","ACE_bodyBag","ACE_morphine","ToolKit","kat_nalbuphine","kat_naloxone","kat_nitroglycerin","kat_norepinephrine","kat_chestSeal","ACE_elasticBandage","ACE_fieldDressing","kat_Pulseoximeter","ACE_EntrenchingTool","kat_guedel","ACE_packingBandage","ACE_RangeCard","ACE_splint","ACE_surgicalKit","kat_IV_16","kat_EACA","kat_IO_FAST","ACE_Kestrel4500","ACE_Flashlight_KSF1","ACE_microDAGR","ACE_salineIV","ACE_salineIV_250","ACE_salineIV_500","kat_larynx","ACE_adenosine","ACE_epinephrine","ACE_UAVBattery","ACE_EarPlugs","ACE_painkillers","ACE_tourniquet","ACE_IR_Strobe_Item","ACE_CableTie","ACE_Fortify","ACE_MapTools","tsb_mag_545x39_30rnd_7n10_bakelite","tsb_mag_545x39_30rnd_7n22_bakelite","tsb_mag_545x39_45rnd_7n22_bakelite","rhs_weap_tr8","rhs_weap_rsp30_red","rhs_weap_rsp30_green","rhs_weap_rsp30_white","rhs_acc_dtk1983","MMM_BaoUV5R","VTN_B8"];
-	_list = _list - restrRUS;
-	[_box, _list] call ace_arsenal_fnc_initBox;
-	} forEach _boxes;
-};
-
 dshd7_class = [] spawn /// 
 {
 	_boxes = [dshd7_ars];
@@ -190,16 +179,6 @@ odshbr80_class = [] spawn ///
 	} forEach _boxes;
 };
 
-psu_class = [] spawn /// 
-{
-	_boxes = [psu_ars];
-	{
-	_box = _x;
-	_list = ["rhs_weap_aks74u","rhs_acc_dtk1983","rhs_30Rnd_545x39_7N22_AK","rhsusf_hgu56p_mask_black","rhsusf_hgu56p_mask_black_skull","rhsusf_hgu56p_visor_mask_black","rhsusf_hgu56p_visor_black","rhsusf_hgu56p_visor_mask_Empire_black","rhsusf_hgu56p_visor_mask_black_skull","rhsusf_hgu56p_visor_mask_green_mo","rhsusf_hgu56p_visor_mask_green","rhsusf_hgu56p_visor_green","rhsusf_hgu56p_mask_green_mo","rhsusf_hgu56p_visor_mask_skull","rhsusf_hgu56p_visor_mask_mo","rhsusf_hgu56p_visor_mask","rhsusf_hgu56p_visor","rhsusf_hgu56p_mask_skull","rhsusf_hgu56p_visor_mask_smiley","PCU_Gen2_fs_mex_gloves_salomon_mc_v1","TFN_PCU_Grey_Gen2_fs_or_blk_NFlag_uniform","TFN_PCU_Grey_Gen2_fs_mex_blk_Flag_uniform","TFN_PCU_Grey_Gen2_fs_mex_blk_NFlag_uniform","TFN_PCU_Grey_Gen2_fs_mex_cb_Flag_uniform","TFN_PCU_Grey_Gen2_fs_hands_cb_Flag_uniform","vest_mbav_ngu_light","vest_mbav_ngu_base","murshun_cigs_cig0","Binocular","ItemMap","ItemCompass","ItemGPS","rhs_mag_rgd5","rhs_mag_rdg2_white","ACE_adenosine","ACE_epinephrine","ACE_EarPlugs","kat_larynx","ACE_tourniquet","ACE_CableTie","ACE_rope36","ACE_rope3","ACE_rope27","ACE_bloodIV","ACE_bloodIV_250","ACE_bloodIV_500","ACE_bodyBag","ACE_morphine","ToolKit","kat_chestSeal","ACE_elasticBandage","ACE_fieldDressing","kat_guedel","ACE_salineIV_500","ACE_salineIV_250","ACE_salineIV","kat_IV_16","ACE_splint","ACE_microDAGR","ACE_SpraypaintBlue","TAC_Balaclava_2","immersion_cigs_cigar0","NMG_weapons_KsuAK","ACE_Can_Franta","MMM_BaoUV5R","TFAR_mr3000_bwmod","Armband_Blue_large_NVG","Armband_Blue_XL_NVG","Armband_Blue_XL2_NVG","Armband_Blue_NVG","Armband_Blue_medium_NVG","Armband_Blue_medium2_NVG","Armband_Yellow_large_NVG","Armband_Yellow_XL_NVG","Armband_Yellow_XL2_NVG","Armband_Yellow_NVG","Armband_Yellow_medium_NVG","Armband_Yellow_medium2_NVG","Armband_Green_large_NVG"];
-	_list = _list - restrUKR;
-	[_box, _list] call ace_arsenal_fnc_initBox;
-	} forEach _boxes;
-};
 oshb425_class = [] spawn /// 
 {
 	_boxes = [oshb425_ars];

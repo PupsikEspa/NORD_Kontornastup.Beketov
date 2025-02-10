@@ -26,28 +26,6 @@ class common_rf_spawner_class //общий рф
     };
 };
 
-class common_vks_spawner_class //ВКС
-{
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == vks_spawner)"; // "(playerSide in [west,independent])"
-    
-    class common_vks_spawner_class
-	{
-        displayName = "Запрос техники ВКС";
-        vehicles[] =
-        {
-            {"RUS_VKS_east_mi8amtsh",1,"true"},
-            {"RUS_VKS_south_mi24v_23mm_bez_pturov",1,"true"},
-            {"RUS_VKS_east_ka52",1,"true"},
-		};
-        spawnPoints[] =
-        {
-            {"Вертолётная площадка 1",{"vks_spawnplace_1"}},
-			{"Вертолётная площадка 2",{"vks_spawnplace_2"}}
-        };
-        
-    };
-};
-
 class logistic_rf_spawner_class //ящики рф
 {
     conditionToAccess = "true"; // "(playerSide in [west,independent])"
@@ -284,7 +262,7 @@ class obrspn45_spawner_class //45 ОБрСпН
 			{"RUS_VDV_SpN_asn233115sts",1,"true"},
 			{"bs_tigr_atgm",1,"true"},
 			{"RUS_GRU_east_kamaz63968",1,"true"},
-			{"RUS_VKS_east_mi8mtv2",1,"true"},
+			{"RUS_VKS_east_mi8mt",1,"true"},
         };
         spawnPoints[] =
         {
@@ -389,27 +367,6 @@ class common_vsu_spawner_class //общий всу
         spawnPoints[] =
         {
             {"1",{"common_vsu_spawnplace"}}
-        };
-        
-    };
-};
-
-class common_psu_spawner_class //ПСУ
-{
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == psu_spawner)"; // "(playerSide in [west,independent])"
-    
-    class common_psu_spawner_class
-	{
-        displayName = "Воздушная техника";
-        vehicles[] =
-        {
-			{"mi24_ukr_v_23mm_bez_pturov",2,"true"},
-			{"mi24_ukr_v_pturi",1,"true"},
-			{"mi8_ukr_mtv3",1,"true"},
-		};
-        spawnPoints[] =
-        {
-            {"1",{"vsu_spawnplace_1"}}
         };
         
     };
