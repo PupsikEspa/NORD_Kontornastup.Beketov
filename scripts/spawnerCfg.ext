@@ -354,11 +354,11 @@ class common_vsu_spawner_class //общий всу
         displayName = "Общий запрос техники";
         vehicles[] =
         {
-			{"b_afougf_old_Ural_Base",10,"true"},
+			{"NORD_KRAZ_TENT",10,"true"},
 			{"b_afougf_old_gaz66_zu23",1,"true"},
-			{"b_afougf_old_gaz66_ammo",3,"true"},
-			{"b_afougf_kraz255b1_fuel",1,"true"},
-			{"b_afougf_Ural_repair",1,"true"},
+			{"NORD_KRAZ_6322_ammo",3,"true"},
+			{"NORD_KRAZ_FUEL",1,"true"},
+			{"NORD_KRAZ_6322_repair",1,"true"},
 			{"b_afougf_D30",2,"true"},
 			{"B_GradP_01_O",1,"true"},
 			{"b_afougf_Mi8MTV3_Cargo",2,"true"},
@@ -535,10 +535,8 @@ class obrmp36_spawner_class //36 ОБрМП
 			{"bmp2_ukr_krest",1,"true"},
 			{"b_afougf_bmp1p",1,"true"},
 			{"b_afougf_yt_BRDM2",1,"true"},
-			{"stryker_krest",1,"true"},
 			{"nord_uaz452b_zsu",1,"true"},
-			{"hmmwv_pickup_krest",1,"true"},
-			{"rhsusf_m1151_usarmy_wd",1,"true"},
+			{"b_afougf_yt_m998_2dr",1,"true"},
 			{"rhsusf_CGRCAT1A2_usmc_wd",1,"true"},
 			{"b_afougf_uaf_fiona",3,"true"},
 			{"rhsusf_m113_usarmy",1,"true"},
@@ -559,7 +557,7 @@ class oshb425_spawner_class //425 ОШБ
     
     class oshb425_spawner_class
 	{
-        displayName = "Запрос техники ЛСР";
+        displayName = "Запрос техники 425 ОШБ";
         vehicles[] =
         {
 			{"stryker_krest",1,"true"},
@@ -589,9 +587,7 @@ class ombr47_spawner_class //47 ОМБр
 			{"nord_leopard2a4_UA",1,"true"},
 			{"b_afougf_old_uaf_t64bm",1,"true"},
 			{"rhsusf_stryker_m1132_m2_wd",1,"true"},
-			{"nord_uaz452b_zsu",1,"true"},
-			{"hmmwv_pickup_krest",2,"true"},
-			{"rhsusf_m1151_usarmy_wd",1,"true"},
+			{"b_afougf_yt_m998_2dr",3,"true"},
 			{"rhsusf_CGRCAT1A2_usmc_wd",1,"true"},
 			{"b_afougf_kozak5_unarmed_F",1,"true"},
 			{"b_afougf_uaf_fiona",1,"true"},
@@ -616,10 +612,13 @@ class gurbratstvo_spawner_class //ГУР "Братство"
         displayName = "Запрос техники ГУР 'Братство'";
         vehicles[] =
         {
-			{"rhsusf_m1151_usarmy_wd",1,"true"},
+			{"rhsusf_m1151_usarmy_wd",2,"true"},
 			{"rhsusf_m1043_w_mk19",1,"true"},
 			{"rhsusf_m1045_w",1,"true"},
 			{"b_afougf_offroad_01",1,"true"},
+			{"b_afougf_yt_m998_2dr",2,"true"},
+			{"nord_uaz452b_zsu",1,"true"},
+			{"stryker_krest",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -640,7 +639,7 @@ class opsn8_spawner_class //8 ОПСпН
         {
 			{"b_afougf_yt_BRDM2",1,"true"},
 			{"nord_uaz452b_zsu",1,"true"},
-			{"hmmwv_pickup_krest",1,"true"},
+			{"b_afougf_yt_m998_2dr",1,"true"},
 			{"rhsusf_m1240a1_m2crows_usarmy_wd",1,"true"},
 			{"rhsusf_m1151_m2_v1_usarmy_wd",1,"true"},
 			{"b_afougf_offroad_01",1,"true"},
@@ -666,7 +665,7 @@ class opsn3_spawner_class //3 ОПСпН
 			{"m2a2_pixel_krest",1,"true"},
 			{"rhsusf_stryker_m1132_m2_wd",1,"true"},
 			{"nord_uaz452b_zsu",1,"true"},
-			{"hmmwv_pickup_krest",1,"true"},
+			{"b_afougf_yt_m998_2dr",1,"true"},
 			{"rhsusf_m1151_usarmy_wd",1,"true"},
 			{"rhsusf_m1043_w_mk19",1,"true"},
 			{"rhsusf_m1151_m2crows_usarmy_wd",1,"true"},
@@ -687,7 +686,7 @@ class msco73_spawner_class //73 МЦСО
     
     class msco73_spawner_class
 	{
-        displayName = "Запрос техники";
+        displayName = "Запрос техники 73 МЦСО";
         vehicles[] =
         {
             {"nord_leopard2a4_UA",1,"true"},
