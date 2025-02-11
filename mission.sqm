@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=85715;
+		nextID=85826;
 	};
 	class Camera
 	{
@@ -460,7 +460,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -486,7 +486,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -499,7 +499,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -512,7 +512,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -66246,7 +66246,7 @@ class Mission
 			type="";
 			a=100;
 			b=714.95911;
-			angle=322.58691;
+			angle=322.58688;
 			id=129990;
 			atlOffset=28.957909;
 			class CustomAttributes
@@ -68917,7 +68917,6 @@ class Mission
 			{
 				position[]={10996.524,36.338024,11312.363};
 			};
-			name="t1";
 			id=138558;
 			type="WMT_Task_Point";
 			class CustomAttributes
@@ -68931,7 +68930,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="";
+							value="t1";
 						};
 					};
 				};
@@ -69101,7 +69100,6 @@ class Mission
 			{
 				position[]={11225.655,31.803083,11160.414};
 			};
-			name="t2";
 			id=138560;
 			type="WMT_Task_Point";
 			class CustomAttributes
@@ -69115,7 +69113,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="";
+							value="t2";
 						};
 					};
 				};
@@ -69288,7 +69286,7 @@ class Mission
 			colorName="ColorBlue";
 			a=25;
 			b=716.42877;
-			angle=0.16002126;
+			angle=0.16002125;
 			id=138561;
 			atlOffset=-10.232582;
 			class CustomAttributes
