@@ -4,7 +4,7 @@ dshr_rusich_plate setObjectTextureGlobal [0, "scripts\plates_rus\dshr_rusich_pla
 dshd7_plate setObjectTextureGlobal [0, "scripts\plates_rus\dshd7_plate_ca.paa"];
 timer_plate setObjectTextureGlobal [0, "scripts\plates_rus\timer_plate_ca.paa"];
 obrspn22_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrspn22_plate_ca.paa"];
-//dshp56_plate setObjectTextureGlobal [0, "scripts\plates_rus\dshp56_plate_ca.paa"];  /// Новый класнейм "obrmp336"
+obrmp336_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp336_plate_ca.paa"];  /// Новый класнейм "obrmp336"
 obrmp155_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp155_plate_ca.paa"];
 dshd76_plate setObjectTextureGlobal [0, "scripts\plates_rus\dshd76_plate_ca.paa"];
 obrmp810_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp810_plate_ca.paa"];
