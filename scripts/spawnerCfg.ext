@@ -123,10 +123,10 @@ class dshd7_spawner_class //7 ДШД
 		    {"RUS_MSV_South_t72b3m",1,"true"},
 		    {"RUS_VDV_bmd4m",1,"true"},
 		    {"RUS_MSV_West_btr82a",1,"true"},
-		    {"RUS_MSV_South_brdm2a",1,"true"},
-		    {"RUS_VDV_kamaz4386",1,"true"},
+		    {"RUS_VDV_kamaz4386",2,"true"},
 		    {"MMM_KamAZ4386_BM30D",1,"true"},
 		    {"RUS_GRU_south_kamaz63968",1,"true"},
+		    {"UAZ_03_transport_F",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -209,7 +209,7 @@ class dshd76_spawner_class //76 ДШД
         vehicles[] =
         {
 			{"RUS_MSV_West_btr82a",1,"true"},
-			{"RUS_MSV_South_brdm2a",1,"true"},
+			{"RUS_MSV_South_btr80",1,"true"},
 			{"RUS_VDV_kamaz4386",2,"true"},
 			{"RUS_GRU_south_kamaz63968",1,"true"},
 			{"UAZ_03_transport_F",1,"true"},
@@ -250,11 +250,12 @@ class obrmp336_spawner_class //336 ОБрМП
         displayName = "Запрос техники 336 ОБрМП";
         vehicles[] =
         {
-			{"O_T80BVM",1,"true"},
+			{"O_T80BVM_M",1,"true"},
+			{"RUS_MSV_bmp3m",1,"true"},
 			{"RUS_VDV_south_bmp2",1,"true"},
 			{"RUS_MSV_West_btr82a",1,"true"},
 			{"RUS_GRU_west_asn233115",2,"true"},
-			{"RUS_MSV_South_btr80",2,"true"},
+			{"RUS_MSV_South_btr80",1,"true"},
 			{"RUS_GRU_south_kamaz63968",1,"true"},
 			{"UAZ_03_transport_F",1,"true"},
 		};
@@ -281,7 +282,7 @@ class obrspn45_spawner_class //45 ОБрСпН
 			{"rhs_tigr_sts_vdv",1,"true"},
 			{"NORD_Tigr_M_233114_GREEN_KORD_RU",1,"true"},
 			{"RUS_GRU_west_asn233115sts",1,"true"},
-			{"UAZ_03_transport_F",1,"true"},
+			{"UAZ_03_transport_F ",1,"true"},
 			{"RUS_VKS_south_mi8mt",1,"true"},
         };
         spawnPoints[] =
@@ -302,7 +303,12 @@ class volki_spawner_class //ОМОН «Финист» (ПУСТО)
         displayName = "Запрос техники ДУБ Царские волки";
         vehicles[] =
         {
+			{"RUS_MSV_West_t72b3",1,"true"},
+			{"RUS_MSV_bmp1",1,"true"},
+			{"RUS_GRU_west_asn233115",1,"true"},
 			{"nord_uaz452b_Z",2,"true"},
+			{"RUS_MSV_South_brdm2a",2,"true"},
+			{"RUS_MSV_South_btr80",1,"true"},
 			{"UAZ_03_transport_F",1,"true"},
         };
         spawnPoints[] =
@@ -322,7 +328,6 @@ class dshr_rusich_spawner_class //ДШРГ «Русич»
         displayName = "Запрос техники ДШРГ «Русич»";
         vehicles[] =
         {
-			{"RUS_MSV_bmp3m",1,"true"},
 			{"RUS_MSV_West_btr82a",1,"true"},
 			{"nord_uaz452b_Z",2,"true"},
 			{"RUS_GRU_west_asn233115",2,"true"},
@@ -348,7 +353,6 @@ class obrspn22_spawner_class //22 ОБрСпН
         {
 			{"nord_t80bv_r",2,"true"},
 			{"bs_BMP_2M",1,"true"},
-			{"RUS_MSV_bmp1",1,"true"},
 			{"RUS_MSV_West_btr82a",1,"true"},
 			{"RUS_GRU_west_asn233115",2,"true"},
 			{"rhs_tigr_sts_vdv",2,"true"},
@@ -365,6 +369,7 @@ class obrspn22_spawner_class //22 ОБрСпН
         
     };
 };
+
 
 
 //ХОХЛЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
