@@ -10,7 +10,20 @@ if (isServer) then {
 		
 		sherpa_event_kill_fix = addMissionEventHandler ["EntityKilled", {
 			params ["_killed", "_killer", "_instigator"];      
-			
+					if ((_killed isKindOf "CAManBase")) then {
+						_killed unassignItem "B_UavTerminal";
+						_killed removeItem "B_UavTerminal";
+						_killed unassignItem "O_UavTerminal";
+						_killed removeItem "O_UavTerminal";
+						if (side player == EAST) then {
+							player addItem "O_UavTerminal";
+							player assignItem "O_UavTerminal";
+						};
+						if (side player == WEST) then {
+							player addItem "B_UavTerminal";
+							player assignItem "B_UavTerminal";
+						};
+					};
 			        _dubeKiller = name _killer;     
 			        if (_killer == _killed) then {
 				_killer = _killed getVariable ["ace_medical_lastDamageSource", _killer];      
