@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=87265;
+		nextID=87479;
 	};
 	class Camera
 	{
-		pos[]={13448.454,52.647297,6065.5122};
-		dir[]={-0.3452971,-0.33383906,0.87710971};
-		up[]={-0.12228939,0.94262999,0.31063452};
-		aside[]={0.93049186,7.4505806e-09,0.36631238};
+		pos[]={13449.796,64.502319,6031.3003};
+		dir[]={-0.022484191,-0.81813002,0.57459348};
+		up[]={-0.03198944,0.57503331,0.81750435};
+		aside[]={0.99923527,0,0.039100681};
 	};
 };
 binarizationWanted=0;
@@ -110,7 +110,7 @@ class AddonsMetaData
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
 		class Item3
@@ -141,7 +141,7 @@ class AddonsMetaData
 		{
 			className="ace_nametags";
 			name="ACE3 - Name Tags";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
 		class Item8
@@ -162,7 +162,7 @@ class AddonsMetaData
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
 		class Item11
@@ -199,7 +199,7 @@ class AddonsMetaData
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
 		class Item17
@@ -277,7 +277,7 @@ class AddonsMetaData
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
 		class Item29
@@ -350,7 +350,7 @@ class AddonsMetaData
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
-			author="Команда ACE";
+			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
 		class Item40
@@ -454,7 +454,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -493,7 +493,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -506,7 +506,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -12454,7 +12454,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="SCALAR";
-														value=8.2142296;
+														value=25;
 													};
 												};
 												class Item1
@@ -67434,7 +67434,7 @@ class Mission
 			type="";
 			a=100;
 			b=1009.4877;
-			angle=110.32042;
+			angle=110.3204;
 			id=130050;
 			atlOffset=22.859858;
 			class CustomAttributes
@@ -68975,7 +68975,7 @@ class Mission
 			type="";
 			a=100;
 			b=367.3255;
-			angle=217.39326;
+			angle=217.39323;
 			id=139402;
 			atlOffset=-18.206987;
 			class CustomAttributes
@@ -69393,11 +69393,11 @@ class Mission
 					dataType="Layer";
 					name="Russian Village 1_1";
 					id=145208;
-					atlOffset=0.1039238;
+					atlOffset=-20.307262;
 				};
 			};
 			id=145260;
-			atlOffset=0.1039238;
+			atlOffset=-20.307262;
 		};
 		class Item562
 		{
@@ -69460,11 +69460,11 @@ class Mission
 					dataType="Layer";
 					name="Russian Village 2";
 					id=147079;
-					atlOffset=0.016187668;
+					atlOffset=-20.307262;
 				};
 			};
 			id=147130;
-			atlOffset=0.016187668;
+			atlOffset=-20.307262;
 		};
 		class Item570
 		{
@@ -69513,11 +69513,11 @@ class Mission
 					dataType="Layer";
 					name="IndustrialZone_01";
 					id=147933;
-					atlOffset=0.52847099;
+					atlOffset=-20.307262;
 				};
 			};
 			id=147979;
-			atlOffset=0.52847099;
+			atlOffset=-20.307262;
 		};
 		class Item576
 		{
@@ -69531,11 +69531,11 @@ class Mission
 					dataType="Layer";
 					name="Russian Village 5";
 					id=147980;
-					atlOffset=0.028083801;
+					atlOffset=-20.307262;
 				};
 			};
 			id=148057;
-			atlOffset=0.028083801;
+			atlOffset=-20.307262;
 		};
 		class Item577
 		{
@@ -69556,11 +69556,11 @@ class Mission
 					dataType="Layer";
 					name="Russian Village 4_1";
 					id=148143;
-					atlOffset=0.13777161;
+					atlOffset=-20.307262;
 				};
 			};
 			id=148212;
-			atlOffset=0.13777161;
+			atlOffset=-20.307262;
 		};
 		class Item579
 		{
@@ -69595,7 +69595,7 @@ class Mission
 			dataType="Layer";
 			name="Factory / Fabrika";
 			id=150390;
-			atlOffset=0.20251083;
+			atlOffset=-20.307262;
 		};
 		class Item584
 		{
@@ -69770,7 +69770,7 @@ class Mission
 			dataType="Layer";
 			name="Industrial Building #1";
 			id=151057;
-			atlOffset=-3.8146973e-06;
+			atlOffset=-20.307262;
 		};
 	};
 };
