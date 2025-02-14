@@ -1,2 +1,2 @@
 player removeAllEventHandlers "HIT";
-[] execVM "scripts\zeus\curator.sqf";
+0 spawn {[] execVM "scripts\zeus\curator.sqf"};
