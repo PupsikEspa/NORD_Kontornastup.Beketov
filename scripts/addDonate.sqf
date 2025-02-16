@@ -7,7 +7,7 @@ if ((getPlayerUID player) == "76561198316727609") then {
 };
 
 if ((getPlayerUID player) == "76561198297574929") then {
-	[((group player) getVariable "regArs"), ["rhsusf_acc_RM05","rhsusf_acc_rotex_mp7","rhsusf_mag_40Rnd_46x30_AP","rhsusf_weap_MP7A2_folded","rhsusf_acc_grip3","rhsusf_weap_MP7A2"], false] call ace_arsenal_fnc_addVirtualItems; //Giga
+	[((group player) getVariable "regArs"), ["rhs_weap_SCARH_LB","rhs_mag_20Rnd_SCAR_762x51_m61_ap_bk","rhsusf_acc_rvg_blk","Scot_LEU_MK8_nord","rhsusf_acc_aac_762sd_silencer"], false] call ace_arsenal_fnc_addVirtualItems; //Giga
 };
 
 if ((getPlayerUID player) == "76561198168372978") then {
