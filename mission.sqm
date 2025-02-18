@@ -3713,7 +3713,7 @@ class CustomAttributes
 										class data
 										{
 											singleType="STRING";
-											value="ace_explosives_customtimermin";
+											value="ace_explosives_customvdd98min";
 										};
 									};
 									class Item386
@@ -3721,7 +3721,7 @@ class CustomAttributes
 										class data
 										{
 											singleType="STRING";
-											value="ace_explosives_customtimermax";
+											value="ace_explosives_customvdd98max";
 										};
 									};
 									class Item387
@@ -3729,7 +3729,7 @@ class CustomAttributes
 										class data
 										{
 											singleType="STRING";
-											value="ace_explosives_customtimerdefault";
+											value="ace_explosives_customvdd98default";
 										};
 									};
 									class Item388
@@ -5201,7 +5201,7 @@ class CustomAttributes
 										class data
 										{
 											singleType="STRING";
-											value="kat_airway_occlusion_repeattimer";
+											value="kat_airway_occlusion_repeatvdd98";
 										};
 									};
 									class Item572
@@ -40090,7 +40090,7 @@ class Mission
 					class Attributes
 					{
 						init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""O_Crocus_AP_Bag"", 3];" \n " this addBackpackCargoGlobal [""O_Crocus_AT_Bag"", 3];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Kornet_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""MMM_Weap_RPOA"", 5];" \n " this addItemCargoGlobal [""Rangefinder"", 3];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
-						name="timer_ars";
+						name="vdd98_ars";
 					};
 					id=56906;
 					type="rhs_spec_weapons_crate";
@@ -40643,8 +40643,8 @@ class Mission
 					side="Empty";
 					class Attributes
 					{
-						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""timer_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-						name="timer_spawner";
+						init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""vdd98_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+						name="vdd98_spawner";
 						disableSimulation=1;
 					};
 					id=56677;
@@ -40751,7 +40751,7 @@ class Mission
 						position[]={19614.326,27.636,20075.729};
 						angles[]={0.011560065,0.93682361,0.054145314};
 					};
-					title="Батальон «Тимер»";
+					title="98 ВДД";
 					id=56691;
 					atlOffset=5.9127808e-05;
 				};
@@ -40926,7 +40926,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						name="timer_spawnplace";
+						name="vdd98_spawnplace";
 						disableSimulation=1;
 					};
 					id=56699;
@@ -42436,7 +42436,7 @@ class Mission
 																					flags=7;
 																					class Attributes
 																					{
-																						description="Командир @Батальон «Тимер»";
+																						description="Командир @98 ВДД";
 																						isPlayable=1;
 																						class Inventory
 																						{
@@ -42907,8 +42907,8 @@ class Mission
 																			};
 																			class Attributes
 																			{
-																				name="timer";
-																				init="this setVariable [""regArs"", timer_ars, true];" \n "this setVariable [""regSpawner"", timer_spawner, true];";
+																				name="vdd98";
+																				init="this setVariable [""regArs"", vdd98_ars, true];" \n "this setVariable [""regSpawner"", vdd98_spawner, true];";
 																			};
 																			id=123242;
 																			atlOffset=0.1326828;
@@ -42923,7 +42923,7 @@ class Mission
 																						class data
 																						{
 																							singleType="STRING";
-																							value="Батальон «Тимер»";
+																							value="98 ВДД";
 																						};
 																					};
 																				};
@@ -60193,7 +60193,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="timer_plate";
+						name="vdd98_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};

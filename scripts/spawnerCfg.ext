@@ -163,20 +163,20 @@ class obrmp155_spawner_class //155 ОБрМП
     };
 };
 
-class timer_spawner_class //Батальон «Тимер»
+class vdd98_spawner_class //98 ВДД
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == timer_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == vdd98_spawner)"; // "(playerSide in [west,independent])"
     
-    class timer_spawner_class
+    class vdd98_spawner_class
 	{
-        displayName = "Запрос техники Батальон «Тимер»";
+        displayName = "Запрос техники 98 ВДД";
         vehicles[] =
         {
 			{"",,"true"},
 		};
         spawnPoints[] =
         {
-            {"1",{"timer_spawnplace"}}
+            {"1",{"vdd98_spawnplace"}}
         };
         
     };
