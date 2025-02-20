@@ -299,19 +299,20 @@ class obrspn45_spawner_class //45 ОБрСпН
     };
 };
 
-class volki_spawner_class //ОМОН «Финист» (ПУСТО)
+class batalionvostok_spawner_class //Батальон "Восток"
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == volki_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == batalionvostok_spawner)"; // "(playerSide in [west,independent])"
     
-    class volki_spawner_class
+    class batalionvostok_spawner_class
 	{
-        displayName = "Запрос техники ДУБ Царские волки";
+        displayName = "Запрос техники Батальон Восток";
         vehicles[] =
         {
+           
         };
         spawnPoints[] =
         {
-            {"1",{"volki_spawnplace"}}
+            {"1",{"batalionvostok_spawnplace"}}
         };
         
     };

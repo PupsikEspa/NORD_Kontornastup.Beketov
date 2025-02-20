@@ -8,4 +8,4 @@ obrmp336_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp336_plate_ca.
 obrmp155_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp155_plate_ca.paa"];
 dshd76_plate setObjectTextureGlobal [0, "scripts\plates_rus\dshd76_plate_ca.paa"];
 obrmp810_plate setObjectTextureGlobal [0, "scripts\plates_rus\obrmp810_plate_ca.paa"];
-//volki_plate setObjectTextureGlobal [0, "scripts\plates_rus\volki_plate_ca.paa"];
+//batalionvostok_plate setObjectTextureGlobal [0, "scripts\plates_rus\batalionvostok_plate_ca.paa"];
