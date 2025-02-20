@@ -13,3 +13,11 @@ if ((getPlayerUID player) == "76561198297574929") then {
 if ((getPlayerUID player) == "76561198168372978") then {
 	[((group player) getVariable "regArs"), ["NMG_weapons_A762"], false] call ace_arsenal_fnc_addVirtualItems; //Кот
 };
+
+if ((getPlayerUID player) == "76561198055139490") then {
+	[((group player) getVariable "regArs"), ["NMG_weapons_A545","NMG_weapons_A545_gp"], false] call ace_arsenal_fnc_addVirtualItems; //Байрактар
+};
+
+if ((getPlayerUID player) == "76561199061768748") then {
+	[((group player) getVariable "regArs"), ["NMG_weapons_A545","NMG_weapons_A545_gp"], false] call ace_arsenal_fnc_addVirtualItems; //Штефан
+};
