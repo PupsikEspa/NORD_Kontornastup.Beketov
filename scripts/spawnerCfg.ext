@@ -576,7 +576,7 @@ class oshb425_spawner_class //425 ОШБ
         vehicles[] =
         {
 			{"FA_UAF_BTR3",1,"true"},
-			{"b_afougf_yt_BRDM2",1,"true"},
+			{"NORD_BRDM2_UA",1,"true"},
 			{"nord_uaz452b_zsu",1,"true"},
 			{"m2a2_pixel_krest",1,"true"},
 			{"stryker_krest",1,"true"},
@@ -659,7 +659,7 @@ class opsn8_spawner_class //8 ОПСпН
         displayName = "Запрос техники 8 ОПСпН";
         vehicles[] =
         {
-			{"b_afougf_yt_BRDM2",1,"true"},
+			{"NORD_BRDM2_UA",1,"true"},
 			{"nord_uaz452b_zsu",1,"true"},
 			{"b_afougf_yt_m998_2dr",1,"true"},
 			{"rhsusf_m1240a1_m2crows_usarmy_wd",1,"true"},
