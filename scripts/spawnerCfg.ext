@@ -125,7 +125,7 @@ class dshd7_spawner_class //7 ДШД
 		    {"RUS_MSV_east_btr82a",1,"true"},
 		    {"RUS_VDV_east_kamaz4386",2,"true"},
 		    {"MMM_KamAZ4386_BM30D",1,"true"},
-		    {"RUS_GRU_east_kamaz63968",1,"true"}
+		    {"RUS_GRU_east_kamaz63968",1,"true"},
 		    
 		};
         spawnPoints[] =
@@ -285,7 +285,7 @@ class obrspn45_spawner_class //45 ОБрСпН
 			{"rhs_tigr_sts_vdv",1,"true"},
 			{"bs_tigr_arbalet_dm",1,"true"},
 			{"bs_tigr_atgm_deform",1,"true"},
-			{"rhsgref_tla_offroad",1,"true"}	
+			{"rhsgref_tla_offroad",1,"true"},
         };
         spawnPoints[] =
         {
@@ -305,14 +305,14 @@ class batalionvostok_spawner_class //Батальон "Восток"
         displayName = "Запрос техники Батальон Восток";
         vehicles[] =
         {
-           {"O_T80BVM_M_Z",1,"true"}
-           {"rhs_bmd4ma_vdv",1,"true"}
-           {"RUS_MSV_east_btr82a",1,"true"}
-           {"nord_uaz452b_Z",1,"true"}
-           {"RUS_VDV_SpN_asn233115",1,"true"}
-           {"NORD_Tigr_M_233114_Camo_KORD_RU",1,"true"}
-           {"bs_tigr_atgm_deform",1,"true"}
-           {"rhsgref_tla_offroad",1,"true"}
+           {"O_T80BVM_M_Z",1,"true"},
+           {"rhs_bmd4ma_vdv",1,"true"},
+           {"RUS_MSV_east_btr82a",1,"true"},
+           {"nord_uaz452b_Z",1,"true"},
+           {"RUS_VDV_SpN_asn233115",1,"true"},
+           {"NORD_Tigr_M_233114_Camo_KORD_RU",1,"true"},
+           {"bs_tigr_atgm_deform",1,"true"},
+           {"rhsgref_tla_offroad",1,"true"},
         };
         spawnPoints[] =
         {
