@@ -120,8 +120,7 @@ class dshd7_spawner_class //7 ДШД
 	{
         displayName = "Запрос техники 7 ДШД";
         vehicles[] =
-        {
-		    {"RUS_MSV_West_t72b3m",1,"true"},    
+        {    
 		    {"RUS_VDV_bmd4m",1,"true"},    
 		    {"RUS_MSV_east_btr82a",1,"true"},    
 		    {"RUS_VDV_east_kamaz4386",2,"true"},    
@@ -172,7 +171,6 @@ class vdd98_spawner_class //98 ВДД
         displayName = "Запрос техники 98 ВДД";
         vehicles[] =
         {
-			{"rhs_t90sm_tv",1,"true"},
 			{"RUS_VDV_bmd4m",1,"true"},
 			{"RUS_MSV_east_btr82a",1,"true"},
 			{"RUS_VDV_SpN_asn233115",2,"true"},
@@ -307,6 +305,8 @@ class batalionvostok_spawner_class //Батальон "Восток"
         {
            {"O_T80BVM_M_Z",1,"true"},
            {"O_T80BVM_Z",1,"true"},
+           {"rhs_t90sm_tv",1,"true"},
+           {"RUS_MSV_West_t72b3m",1,"true"},
            {"nord_uaz452b_Z",1,"true"},
            {"RUS_VDV_SpN_asn233115",2,"true"},
            {"NORD_Tigr_M_233114_Camo_KORD_RU",1,"true"},
