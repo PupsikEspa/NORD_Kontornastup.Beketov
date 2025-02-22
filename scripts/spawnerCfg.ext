@@ -583,11 +583,13 @@ class brop3_spawner_class //3 БрОП
 			{"b_afougf_kozak5_unarmed_F",1,"true"},
 			{"b_afougf_uaf_fiona",4,"true"},
 			{"b_afougf_offroad_01",1,"true"},
-			{"bmp2_ukr_krest",2,"true"},
+			{"bmp2_ukr_krest",1,"true"},
 			{"b_afougf_bmp1p",1,"true"},
 			{"rhsusf_m113_usarmy",1,"true"},
 			{"rhsusf_m113_usarmy_M2_90",3,"true"},
 			{"b_afougf_yt_m998_2dr",2,"true"},
+			{"b_afougf_old_uaf_t64bm",1,"true"},
+			{"mkk_t64_bv",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -606,10 +608,9 @@ class ombr47_spawner_class //47 ОМБр
         displayName = "Запрос техники 47 ОМБр";
         vehicles[] =
         {
-			{"mkk_t64_bv",2,"true"},
-			{"nord_leopard2a4_UA",2,"true"},
+			{"nord_leopard2a4_UA",1,"true"},
 			{"rhsusf_stryker_m1132_m2_wd",1,"true"},
-			{"b_afougf_yt_m998_2dr",3,"true"},
+			{"b_afougf_yt_m998_2dr",2,"true"},
 			{"rhsusf_CGRCAT1A2_usmc_wd",1,"true"},
 			{"b_afougf_kozak5_unarmed_F",1,"true"},
 			{"b_afougf_uaf_fiona",1,"true"},
@@ -640,6 +641,7 @@ class gurbratstvo_spawner_class //ГУР "Братство"
 			{"b_afougf_yt_m998_2dr",2,"true"},
 			{"nord_uaz452b_zsu",1,"true"},
 			{"stryker_krest",1,"true"},
+			{"mkk_t64_bv",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -660,10 +662,12 @@ class opsn8_spawner_class //8 ОПСпН
         {
 			{"NORD_BRDM2_UA",1,"true"},
 			{"nord_uaz452b_zsu",1,"true"},
-			{"b_afougf_yt_m998_2dr",1,"true"},
+			{"b_afougf_yt_m998_2dr",2,"true"},
 			{"rhsusf_m1240a1_m2crows_usarmy_wd",1,"true"},
 			{"rhsusf_m1151_m2_v1_usarmy_wd",1,"true"},
 			{"b_afougf_offroad_01",1,"true"},
+			{"bmp2_ukr_krest",1,"true"},
+			{"nord_leopard2a4_UA",1,"true"},
 		};
         spawnPoints[] =
         {
@@ -710,8 +714,7 @@ class msco73_spawner_class //73 МЦСО
         displayName = "Запрос техники 73 МЦСО";
         vehicles[] =
         {
-			{"b_afougf_old_uaf_t64bm",2,"true"},
-            {"nord_marder_1a5_ua",1,"true"},
+			{"nord_marder_1a5_ua",1,"true"},
             {"rhsusf_CGRCAT1A2_usmc_wd",1,"true"},
             {"b_afougf_kozak5_unarmed_F",1,"true"},
             {"rhsusf_m1151_m2_v1_usarmy_wd",1,"true"},
