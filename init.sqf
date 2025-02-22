@@ -26,6 +26,14 @@ if (!isNil "pvpfw_chatIntercept_EHID")then{
 	pvpfw_chatIntercept_EHID = nil;
 };
 
+if (hasInterface) then
+{
+	[] spawn {
+		waitUntil {!isNull player};
+		[player, didJIP] remoteExec ["Nord_fnc_initPlayerServer", 2];
+	};
+};
+
 pvpfw_chatIntercept_handle = [] spawn {
 	private["_equal","_chatArr"];
 	

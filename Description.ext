@@ -22,12 +22,22 @@ wreckLimit = 1; //Количество подбитой техники на ка
 wreckRemovalMinTime = 600; //second
 wreckRemovalMaxTime = 900; //seconds
 
+class CfgFunctions
+{
+	class Nord
+	{
+		class This_wouldnt_be_needed_if_Bohemia_had_done_it_properly_in_the_first_place
+		{
+			class initPlayerServer { file = "initPlayerServer.sqf"; };
+		};
+	};
+};
 class CfgRemoteExec
 {
 	class Functions
 	{
-		mode = 2;
-        jip = 1;
+		mode = 1;
+		class Nord_fnc_initPlayerServer { allowedTargets = 2; };
 	};
 };
 
