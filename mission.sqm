@@ -20,11 +20,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=92970;
+		nextID=93023;
 	};
 	class Camera
 	{
-		pos[]={19638.92,46.399784,20151.836};
+		pos[]={19638.92,155.83638,20151.836};
 		dir[]={0.62523007,-0.71665317,0.30908373};
 		up[]={0.64244658,0.69741744,0.31759527};
 		aside[]={0.44316995,-3.7509017e-07,-0.89646369};
@@ -86,14 +86,13 @@ addons[]=
 	"A3_Signs_F_Signs_Ad",
 	"A3_Structures_F_Argo_Military_Fortifications",
 	"vostoktriggermodule",
-	"A3_Characters_F_Exp_Civil",
-	"wmt_tasks"
+	"A3_Characters_F_Exp_Civil"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=49;
+		items=48;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -407,11 +406,6 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item48
-		{
-			className="WMT_Tasks";
-			name="wmt_tasks";
-		};
 	};
 };
 dlcs[]=
@@ -468,7 +462,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -507,7 +501,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -520,7 +514,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -30099,7 +30093,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=526;
+		items=520;
 		class Item0
 		{
 			dataType="Object";
@@ -47382,31 +47376,31 @@ class Mission
 																		};
 																	};
 																	id=80;
-																	atlOffset=0.41427803;
+																	atlOffset=0.10538483;
 																};
 															};
 															id=79;
-															atlOffset=0.41427803;
+															atlOffset=0.10538483;
 														};
 													};
 													id=78;
-													atlOffset=0.41427803;
+													atlOffset=0.10538483;
 												};
 											};
 											id=77;
-											atlOffset=0.41427803;
+											atlOffset=0.10538483;
 										};
 									};
 									id=76;
-									atlOffset=0.41427803;
+									atlOffset=0.10538483;
 								};
 							};
 							id=75;
-							atlOffset=0.41427803;
+							atlOffset=0.10538483;
 						};
 					};
 					id=56703;
-					atlOffset=0.41427803;
+					atlOffset=0.10538483;
 				};
 				class Item28
 				{
@@ -68720,602 +68714,6 @@ class Mission
 				init="this setVariable [""regSpawner"", event_spawner, true];";
 			};
 			id=156772;
-		};
-		class Item520
-		{
-			dataType="Marker";
-			position[]={11923.437,31.167,11612.582};
-			name="T2";
-			markerType="RECTANGLE";
-			type="";
-			a=64.737;
-			b=88.75;
-			angle=295.10687;
-			id=162214;
-			atlOffset=2.5605812;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="markerblink";
-					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=3;
-								class Item0
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item521
-		{
-			dataType="Marker";
-			position[]={12171.672,24.302,11272.338};
-			name="T1 ";
-			markerType="RECTANGLE";
-			type="";
-			a=117.814;
-			b=54.782001;
-			angle=187.21494;
-			id=162215;
-			atlOffset=-7.6293945e-05;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="markerblink";
-					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=3;
-								class Item0
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item522
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={11857.813,27.825455,11603.15};
-			};
-			id=162216;
-			type="WMT_Task_Point";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="WMT_Task_Point_Marker";
-					expression="_this setVariable ['Marker',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="T2";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="WMT_Task_Point_Condition";
-					expression="_this setVariable ['Condition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="true";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="WMT_Task_Point_Message";
-					expression="_this setVariable ['Message',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="WMT_Task_Point_MaxHeight";
-					expression="_this setVariable ['MaxHeight',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=30;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="WMT_Task_Point_EasyCapture";
-					expression="_this setVariable ['EasyCapture',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="WMT_Task_Point_AutoLose";
-					expression="_this setVariable ['AutoLose',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=4;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="WMT_Task_Point_Timer";
-					expression="_this setVariable ['Timer',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=20;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="WMT_Task_Point_CaptureCount";
-					expression="_this setVariable ['CaptureCount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=2;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="WMT_Task_Point_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=4;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="WMT_Task_Point_MinHeight";
-					expression="_this setVariable ['MinHeight',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=-5;
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="WMT_Task_Point_DefCount";
-					expression="_this setVariable ['DefCount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="WMT_Task_Point_Lock";
-					expression="_this setVariable ['Lock',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="WMT_Task_Point_AdvantagePercent";
-					expression="_this setVariable ['AdvantagePercent',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				nAttributes=13;
-			};
-		};
-		class Item523
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={12276.87,24.933619,11297.988};
-			};
-			id=162217;
-			type="WMT_Task_Point";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="WMT_Task_Point_Marker";
-					expression="_this setVariable ['Marker',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="T1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="WMT_Task_Point_Condition";
-					expression="_this setVariable ['Condition',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="true";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="WMT_Task_Point_Message";
-					expression="_this setVariable ['Message',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="WMT_Task_Point_MaxHeight";
-					expression="_this setVariable ['MaxHeight',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=30;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="WMT_Task_Point_EasyCapture";
-					expression="_this setVariable ['EasyCapture',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="WMT_Task_Point_AutoLose";
-					expression="_this setVariable ['AutoLose',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=4;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="WMT_Task_Point_Timer";
-					expression="_this setVariable ['Timer',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=20;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="WMT_Task_Point_CaptureCount";
-					expression="_this setVariable ['CaptureCount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=2;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="WMT_Task_Point_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=4;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="WMT_Task_Point_MinHeight";
-					expression="_this setVariable ['MinHeight',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=-5;
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="WMT_Task_Point_DefCount";
-					expression="_this setVariable ['DefCount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="WMT_Task_Point_Lock";
-					expression="_this setVariable ['Lock',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="WMT_Task_Point_AdvantagePercent";
-					expression="_this setVariable ['AdvantagePercent',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0;
-						};
-					};
-				};
-				nAttributes=13;
-			};
-		};
-		class Item524
-		{
-			dataType="Marker";
-			position[]={9584.0088,35.889,12712.52};
-			name="marker_1174";
-			markerType="RECTANGLE";
-			type="";
-			colorName="ColorBlue";
-			a=49.884998;
-			b=1401.928;
-			angle=20.951998;
-			id=162218;
-			atlOffset=4.6780663;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="markerblink";
-					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=3;
-								class Item0
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item525
-		{
-			dataType="Marker";
-			position[]={14375.966,40.519226,10671.22};
-			name="marker_1175";
-			markerType="RECTANGLE";
-			type="";
-			colorName="ColorBlue";
-			a=49.884998;
-			b=971.40277;
-			angle=55.676739;
-			id=162219;
-			atlOffset=13.378984;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="markerblink";
-					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=3;
-								class Item0
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=1;
-			};
 		};
 	};
 };
