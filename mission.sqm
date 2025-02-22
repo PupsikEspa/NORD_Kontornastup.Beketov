@@ -30446,8 +30446,8 @@ class Mission
 															side="Empty";
 															class Attributes
 															{
-																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""oshb425_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
-																name="oshb425_spawner";
+																init="call{this addAction[""Запрос наземной техники"",{_this call SUS_fnc_initSpawner},""brop3_spawner_class"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];};";
+																name="brop3_spawner";
 																disableSimulation=1;
 															};
 															id=2103;
@@ -36789,7 +36789,7 @@ class Mission
 				position[]={567.90033,22.296644,614.33594};
 				angles[]={0.022506481,4.5598278,6.2690759};
 			};
-			title="425 ОШБ";
+			title="3 БрОП";
 			id=2126;
 		};
 		class Item22
@@ -36804,7 +36804,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="oshb425_spawnplace";
+				name="brop3_spawnplace";
 				disableSimulation=1;
 			};
 			id=2127;
@@ -36988,7 +36988,7 @@ class Mission
 			class Attributes
 			{
 				init="if (isServer) then {  " \n " this addItemCargoGlobal [""MineDetector"", 5];" \n " this addBackpackCargoGlobal [""B_Crocus_AP_Bag"", 3];" \n " this addBackpackCargoGlobal [""B_Crocus_AT_Bag"", 3];" \n " this addBackpackCargoGlobal [""VTN_AGS30_SUPPORT"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""nord_stugna_Tripod_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Gun_Bag"", 1];" \n " this addBackpackCargoGlobal [""RHS_Metis_Tripod_Bag"", 1];" \n " this addItemCargoGlobal [""rhs_weap_m32"", 1];" \n " this addItemCargoGlobal [""Rangefinder"", 5];" \n " this addItemCargoGlobal [""Item_Mavic"", 1];" \n "};" \n "";
-				name="oshb425_ars";
+				name="brop3_ars";
 			};
 			id=2122;
 			type="rhs_spec_weapons_crate";
@@ -58752,7 +58752,7 @@ class Mission
 					flags=1;
 					class Attributes
 					{
-						name="oshb425_plate";
+						name="brop3_plate";
 						createAsLocalObject=1;
 						disableSimulation=1;
 					};
@@ -66294,7 +66294,7 @@ class Mission
 													flags=7;
 													class Attributes
 													{
-														description="Командир @425 ОШБ";
+														description="Командир @3 БрОП";
 														isPlayable=1;
 														class Inventory
 														{
@@ -68483,8 +68483,8 @@ class Mission
 											};
 											class Attributes
 											{
-												name="oshb425";
-												init="this setVariable [""regArs"", oshb425_ars, true];" \n "this setVariable [""regSpawner"", oshb425_spawner, true];";
+												name="brop3";
+												init="this setVariable [""regArs"", brop3_ars, true];" \n "this setVariable [""regSpawner"", brop3_spawner, true];";
 											};
 											id=156576;
 											atlOffset=0.16806412;

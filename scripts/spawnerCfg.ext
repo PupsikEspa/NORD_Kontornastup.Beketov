@@ -565,13 +565,13 @@ class obrmp36_spawner_class //36 ОБрМП
 };
 
 
-class oshb425_spawner_class //425 ОШБ
+class brop3_spawner_class //3 БрОП
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == oshb425_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == brop3_spawner)"; // "(playerSide in [west,independent])"
     
-    class oshb425_spawner_class
+    class brop3_spawner_class
 	{
-        displayName = "Запрос техники 425 ОШБ";
+        displayName = "Запрос техники 3 БрОП";
         vehicles[] =
         {
 			{"FA_UAF_BTR3",1,"true"},
@@ -591,7 +591,7 @@ class oshb425_spawner_class //425 ОШБ
 		};
         spawnPoints[] =
         {
-            {"1",{"oshb425_spawnplace"}}
+            {"1",{"brop3_spawnplace"}}
         };
         
     };
