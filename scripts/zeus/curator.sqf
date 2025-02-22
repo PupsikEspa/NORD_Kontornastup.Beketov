@@ -1,4 +1,5 @@
 _playerUID = getPlayerUID player;
+systemChat "Giving Zeus...";
 zeusmodule = [ 
     "76561199002226480", /// Фламберг
     "76561198376736313", /// Борв

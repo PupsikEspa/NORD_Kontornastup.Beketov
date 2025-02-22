@@ -1,3 +1,4 @@
+systemChat "Global Init...";
 [] call compile preProcessFilelineNumbers "scripts\chat\config.sqf";
 [] call compile preProcessFilelineNumbers "scripts\chat\commands.sqf";
 [] execVM "scripts\zeus\opened_eh.sqf";
