@@ -1,6 +1,6 @@
 _playerUID = getPlayerUID player;
 systemChat "Giving Zeus...";
-zeusmodule = [ 
+_zeusmodule = [ 
     "76561199002226480", /// Фламберг
     "76561198376736313", /// Борв
     "76561198284004882", /// Миллер
@@ -22,10 +22,11 @@ zeusmodule = [
 	"76561199161998110", /// Штурман
 	"76561198908535754", /// Князь
 	"76561198055139490" /// ГБР теыты [8 ОПСпН] Бiйрактар
-	
 ];
-if (!(_playerUID in zeusmodule)) exitwith {};
+if (!(_playerUID in _zeusmodule)) exitwith {};
 if ((side player != civilian) && (_playerUID != "76561198432363921") && (_playerUID != "76561198284004882") && (_playerUID !="76561198135788033") && (_playerUID != "76561198216667587") && (_playerUID != "76561199287760678")) exitwith {};
+
+systemChat "Giving Zeus... 2";
 
 _index = zeusmodule find _playerUID;
 _dedman = format["dedman%1", _index];
@@ -87,8 +88,9 @@ _dedman = format["dedman%1", _index];
 		unassignCurator _myCurObject;
 		sleep 0.4;
 		_myPlayer assignCurator _myCurObject;
-		///* };*/
+		//* };*/
 		[-1, compile format["if (player == %1) then {%1 sideChat 'you are Curator';}", _myName]] call CBA_fnc_globalExecute;
 	}, _this] call CBA_fnc_globalExecute;
 };
 
+systemChat "Giving Zeus... 3";
