@@ -22,6 +22,15 @@ wreckLimit = 1; //Количество подбитой техники на ка
 wreckRemovalMinTime = 600; //second
 wreckRemovalMaxTime = 900; //seconds
 
+class CfgRemoteExec
+{
+	class Functions
+	{
+		mode = 2;
+        jip = 1;
+	};
+};
+
 //Discord info
 class CfgDiscordRichPresence {
     applicationID="1243289776384249896";             // Provided by discord
