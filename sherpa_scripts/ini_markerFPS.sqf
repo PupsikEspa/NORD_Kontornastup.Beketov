@@ -38,6 +38,21 @@ if (!isServer) then {
     };
 };
 
+_rusCountMarker = createMarker ["rusCount", [0,-600]];
+_rusCountMarker setMarkerType "mil_start";
+_rusCountMarker setMarkerSize [0.7, 0.7];
+_rusCountMarker setMarkerColor "ColorEAST";
+
+_ukrCountMarker = createMarker ["ukrCount", [0,-700]];
+_ukrCountMarker setMarkerType "mil_start";
+_ukrCountMarker setMarkerSize [0.7, 0.7];
+_ukrCountMarker setMarkerColor "ColorWEST";
+
+_civCountMarker = createMarker ["civCount", [0,-800]];
+_civCountMarker setMarkerType "mil_start";
+_civCountMarker setMarkerSize [0.7, 0.7];
+_civCountMarker setMarkerColor "ColorCIV";
+
 private _myfpsmarker = createMarker [format ["fpsmarker%1", _sourcestr], [0, -500 - (500 * _position)]];
 _myfpsmarker setMarkerType "mil_start";
 _myfpsmarker setMarkerSize [0.7, 0.7];
@@ -54,6 +69,10 @@ while {true} do {
     if (_myfps < 10) then {_myfpsmarker setMarkerColor "ColorRED";};
 
     _myfpsmarker setMarkerText format ["%1: %2 фпс / fps, %3 локальных групп / local groups, %4  локальных юнитов / local units", _sourcestr, (round (_myfps * 100.0)) / 100.0, _localgroups, _localunits];
+
+    _rusCountMarker setMarkerText format ["ВС РФ: %1", playersNumber east];
+    _ukrCountMarker setMarkerText format ["ВСУ: %1", playersNumber west];
+    _civCountMarker setMarkerText format ["Администрация: %1", playersNumber civilian];
 
     sleep 5;
 };
