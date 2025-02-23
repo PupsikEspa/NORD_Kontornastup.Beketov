@@ -477,35 +477,19 @@ class logistic_vsu_spawner_class //ящики всу
     };
 };
 
-class odshbr80_spawner_class //80 ОДШБр (ПУСТО)
+class oshb425_spawner_class //425 ОШБ «Скала»
 {
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == odshbr80_spawner)"; // "(playerSide in [west,independent])"
+    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == oshb425_spawner)"; // "(playerSide in [west,independent])"
     
-    class odshbr80_spawner_class
+    class oshb425_spawner_class
 	{
-        displayName = "Запрос техники 80 ОДШБр";
+        displayName = "Запрос техники 425 ОШБ «Скала»";
         vehicles[] =
-        {};
-        spawnPoints[] =
         {
-            {"1",{"odshbr80_spawnplace"}}
         };
-        
-    };
-};
-
-class gnl_spawner_class //ГНЛ (ПУСТО)
-{
-    conditionToAccess = "(side player == civilian) || (((group player) getVariable ""regSpawner"") == gnl_spawner)"; // "(playerSide in [west,independent])"
-    
-    class gnl_spawner_class
-	{
-        displayName = "Запрос техники ГНЛ";
-        vehicles[] =
-        {};
         spawnPoints[] =
         {
-            {"1",{"gnl_spawnplace"}}
+            {"1",{"oshb425_spawnplace"}}
         };
         
     };
