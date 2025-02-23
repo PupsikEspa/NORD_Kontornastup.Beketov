@@ -36,8 +36,9 @@ class CfgRemoteExec
 {
 	class Functions
 	{
-		mode = 1;
-		class Nord_fnc_initPlayerServer { allowedTargets = 2; };
+		mode = 2;
+		// mode = 1;
+		// class Nord_fnc_initPlayerServer { allowedTargets = 2; };
 	};
 };
 
