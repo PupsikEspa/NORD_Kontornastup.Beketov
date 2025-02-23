@@ -1,5 +1,4 @@
-params ["_playerUnit"];
-_playerUID = getPlayerUID _playerUnit;
+_playerUID = getPlayerUID player;
 systemChat "Giving Zeus...";
 _zeusmodule = [ 
     "76561199002226480", /// Фламберг
@@ -25,13 +24,13 @@ _zeusmodule = [
 	"76561198055139490" /// ГБР теыты [8 ОПСпН] Бiйрактар
 ];
 if (!(_playerUID in _zeusmodule)) exitwith {};
-if ((side _playerUnit != civilian) && (_playerUID != "76561198432363921") && (_playerUID != "76561198284004882") && (_playerUID !="76561198135788033") && (_playerUID != "76561198216667587") && (_playerUID != "76561199287760678")) exitwith {};
+if ((side player != civilian) && (_playerUID != "76561198432363921") && (_playerUID != "76561198284004882") && (_playerUID !="76561198135788033") && (_playerUID != "76561198216667587") && (_playerUID != "76561199287760678")) exitwith {};
 
 systemChat "Giving Zeus... 2";
 
 _index = _zeusmodule find _playerUID;
 	["dedmen"]  call {
-		missionNamespace setVariable [_this select 0,_playerUnit, true];
+		missionNamespace setVariable [_this select 0,player, true];
 		[_this, {
 			params ["_myName"];
 			private _curVarName = _myName+"Cur";
