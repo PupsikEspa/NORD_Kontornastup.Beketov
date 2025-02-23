@@ -36,18 +36,18 @@ _index = _zeusmodule find _playerUID;
 			private _curVarName = _myName+"Cur";
 			
 			if (!isNil _curVarName) then {
-				[_myName, {
-    				if (player == _this) then {_this sideChat 'deleting Curator';}
-				}] remoteExec ["BIS_fnc_call", -2];
+				// [_myName, {
+    			// 	if (player == _this) then {_this sideChat 'deleting Curator';}
+				// }] remoteExec ["BIS_fnc_call", -2];
 				deleteVehicle (missionNamespace getVariable [_curVarName, objNull]);
 				missionNamespace setVariable [_curVarName, nil, true];
 			};
 
 
 			if (isNil _curVarName) then {
-				[_myName, {
-    				if (player == _this) then {_this sideChat 'creating Curator';}
-				}] remoteExec ["BIS_fnc_call", -2];
+				// [_myName, {
+    			// 	if (player == _this) then {_this sideChat 'creating Curator';}
+				// }] remoteExec ["BIS_fnc_call", -2];
 				if (isNil "DedmenCur_group") then {DedmenCur_group = creategroup sideLogic;};
 				private _myCurObject = DedmenCur_group createunit["ModuleCurator_F", [0, 90, 90], [], 0.5, "NONE"];	//Logic Server
 				_myCurObject setVariable ["showNotification",false];
@@ -85,9 +85,9 @@ _index = _zeusmodule find _playerUID;
 			sleep 0.4;
 			dedmen assignCurator _myCurObject;
 			/* };*/
-			[_myName, {
-    				if (player == _this) then {_this sideChat 'you are Curator';}
-			}] remoteExec ["BIS_fnc_call", -2];
+			// [_myName, {
+    		// 		if (player == _this) then {_this sideChat 'you are Curator';}
+			// }] remoteExec ["BIS_fnc_call", -2];
 		}] remoteExec ["BIS_fnc_call", 2];
 	};
 
