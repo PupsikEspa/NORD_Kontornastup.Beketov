@@ -1,5 +1,4 @@
 _playerUID = getPlayerUID player;
-systemChat "Giving Zeus...";
 _zeusmodule = [ 
     "76561199002226480", /// Фламберг
     "76561198376736313", /// Борв
@@ -25,8 +24,6 @@ _zeusmodule = [
 ];
 if (!(_playerUID in _zeusmodule)) exitwith {};
 if ((side player != civilian) && (_playerUID != "76561198432363921") && (_playerUID != "76561198284004882") && (_playerUID !="76561198135788033") && (_playerUID != "76561198216667587") && (_playerUID != "76561199287760678")) exitwith {};
-
-systemChat "Giving Zeus... 2";
 
 _index = _zeusmodule find _playerUID;
 	["dedmen"]  call {
@@ -90,5 +87,3 @@ _index = _zeusmodule find _playerUID;
 			// }] remoteExec ["BIS_fnc_call", -2];
 		}] remoteExec ["BIS_fnc_call", 2];
 	};
-
-systemChat "Giving Zeus... 3";
