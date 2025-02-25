@@ -1,4 +1,6 @@
 if (isServer) then {
+	_clientMapFPS = createHashMap;
+	missionNamespace setVariable ["_clientMapFPS", _clientMapFPS, true];
 	save_var_hohol = 1;
 	clean_var_hohol = 1;
 	[] execVM "scripts\ehKillCrew.sqf";
