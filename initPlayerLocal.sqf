@@ -1,4 +1,3 @@
-systemChat "Local player initialization...";
 [] execVM "onPlayerRespawn.sqf";
 
 _EndSplashScreen = {

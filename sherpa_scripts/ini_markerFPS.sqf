@@ -57,8 +57,12 @@ private _myfpsmarker = createMarker [format ["fpsmarker%1", _sourcestr], [0, -50
 _myfpsmarker setMarkerType "mil_start";
 _myfpsmarker setMarkerSize [0.7, 0.7];
 
-while {true} do {
+private _playerFPSmarker = createMarker ["playerFPSmarker", [0,-900]];
+_playerFPSmarker setMarkerType "mil_start";
+_playerFPSmarker setMarkerSize [0.7, 0.7];
 
+_c = 0;
+while {true} do {
     private _myfps = diag_fps;
     private _localgroups = {local _x} count allGroups;
     private _localunits = {local _x} count allUnits;
@@ -73,6 +77,25 @@ while {true} do {
     _rusCountMarker setMarkerText format ["ВС РФ: %1", playersNumber east];
     _ukrCountMarker setMarkerText format ["ВСУ: %1", playersNumber west];
     _civCountMarker setMarkerText format ["Администрация: %1", playersNumber civilian];
+
+    _c = _c + 5;
+    if (_c == 600) then {
+        _c = 0;
+        private _clientMapFPS = missionNamespace getVariable ("_clientMapFPS");
+        if (count _clientMapFPS > 0) then {
+            private _sumFPS = 0;
+            { 
+            _sumFPS = _sumFPS + (_y select 0); 
+            } forEach _clientMapFPS;
+            private _averageFPS = (_sumFPS / (count _clientMapFPS));
+            _playerFPSmarker setMarkerColor "ColorGREEN";
+            if (_averageFPS < 30) then {_playerFPSmarker setMarkerColor "ColorYELLOW";};
+            if (_averageFPS < 20) then {_playerFPSmarker setMarkerColor "ColorORANGE";};
+            if (_averageFPS < 10) then {_playerFPSmarker setMarkerColor "ColorRED";};
+
+            _playerFPSmarker setMarkerText format ["Средний клиентский FPS за последние 10 минут: %1 FPS", _averageFPS];
+        };
+    };
 
     sleep 5;
 };

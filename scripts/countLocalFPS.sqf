@@ -23,4 +23,4 @@ localNamespace setVariable ["_avgFPS", _avgFPS];;
 		_avgFPS = [0,0];
 	};
 	localNamespace setVariable ["_avgFPS", _avgFPS];;
-} , 5, []] call CBA_fnc_addPerFrameHandler;
+} , 60, []] call CBA_fnc_addPerFrameHandler;
