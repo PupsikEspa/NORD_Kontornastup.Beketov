@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=165056;
+		nextID=165082;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=93565;
+		nextID=93619;
 	};
 	class Camera
 	{
-		pos[]={19465.438,104.33176,20085.107};
-		dir[]={0.83132958,-0.49371535,0.2554841};
-		up[]={0.4720487,0.86954981,0.14506871};
-		aside[]={0.29377598,-5.7110447e-07,-0.95593888};
+		pos[]={19645.176,42.116745,20052.25};
+		dir[]={0.78325748,-0.59133166,-0.19199772};
+		up[]={0.57433218,0.80642676,-0.1407847};
+		aside[]={-0.23808195,-8.4342901e-08,-0.97125822};
 	};
 };
 binarizationWanted=0;
@@ -88,22 +88,21 @@ addons[]=
 	"vostoktriggermodule",
 	"A3_Characters_F_Exp_Civil",
 	"wmt_tasks",
-	"bs_BMP_2M",
 	"RUS_MP_east_NavalInfantry",
 	"RUS_MSV_MotorRifleTroops",
 	"bradley_ukr",
 	"MM_KrAZ_6322",
-	"Redd_Marder_1A5",
-	"HWK_LEOPARD2",
 	"RUS_MSV_east_MotorRifleTroops",
-	"rhsusf_c_stryker",
-	"m113_ukr"
+	"FA_UAF_Core",
+	"nord_leopard_2A4",
+	"po_factions_me",
+	"afou_c_uaz"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=59;
+		items=58;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -424,57 +423,54 @@ class AddonsMetaData
 		};
 		class Item49
 		{
-			className="bs_BMP_2M";
-			name="bs_BMP_2M";
-		};
-		class Item50
-		{
 			className="RUS_MP_east_NavalInfantry";
 			name="RUS_MP_east_NavalInfantry";
 		};
-		class Item51
+		class Item50
 		{
 			className="RUS_MSV_MotorRifleTroops";
 			name="RUS_MSV_MotorRifleTroops";
 		};
-		class Item52
+		class Item51
 		{
 			className="bradley_ukr";
 			name="bradley_ukr";
 			author="Wildcat_G59";
 		};
-		class Item53
+		class Item52
 		{
 			className="MM_KrAZ_6322";
 			name="MM_KrAZ_6322";
 		};
-		class Item54
-		{
-			className="Redd_Marder_1A5";
-			name="Redd_Marder_1A5";
-		};
-		class Item55
-		{
-			className="HWK_LEOPARD2";
-			name="HWK_LEOPARD2";
-		};
-		class Item56
+		class Item53
 		{
 			className="RUS_MSV_east_MotorRifleTroops";
 			name="RUS_MSV_east_MotorRifleTroops";
 		};
+		class Item54
+		{
+			className="FA_UAF_Core";
+			name="FA_UAF_Core";
+			author="Luca";
+			url="https://steamcommunity.com/id/7112015/myworkshopfiles/";
+		};
+		class Item55
+		{
+			className="nord_leopard_2A4";
+			name="nord_leopard_2A4";
+		};
+		class Item56
+		{
+			className="po_factions_me";
+			name="po_factions_me";
+			author="Leight, Keeway";
+		};
 		class Item57
 		{
-			className="rhsusf_c_stryker";
-			name="IAV Stryker vehicles";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item58
-		{
-			className="m113_ukr";
-			name="m113_ukr";
-			author="Wildcat_G59";
+			className="afou_c_uaz";
+			name="c_uaz";
+			author="Red Hammer Studios, retexture: Barman75, Brezerk";
+			url="https://bit.ly/ArmaUA";
 		};
 	};
 };
@@ -486,7 +482,9 @@ dlcs[]=
 	"Argo",
 	"RHS_AFRF",
 	"RHS_USAF",
-	"VTN"
+	"VTN",
+	"LOP_LeightsOPFOR",
+	"AFOU"
 };
 randomSeed=16570441;
 class ScenarioData
@@ -535,7 +533,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -561,7 +559,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -574,7 +572,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -587,7 +585,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -30166,7 +30164,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=552;
+		items=554;
 		class Item0
 		{
 			dataType="Object";
@@ -71107,40 +71105,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={19637.191,30.879063,20077.588};
-				angles[]={0,2.8395755,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=165008;
-			type="bs_BMP_2M";
-			atlOffset=0.001411438;
-		};
-		class Item538
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={19642.93,30.95211,20079.357};
-				angles[]={0,2.8395755,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=165009;
-			type="bs_BMP_2M";
-			atlOffset=0.0034656525;
-		};
-		class Item539
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={19648.328,31.316656,20081.309};
 				angles[]={0,2.8459029,0};
 			};
@@ -71154,7 +71118,7 @@ class Mission
 			type="RUS_MP_east_bmp3m";
 			atlOffset=-0.0018157959;
 		};
-		class Item540
+		class Item538
 		{
 			dataType="Object";
 			class PositionInfo
@@ -71174,7 +71138,7 @@ class Mission
 			type="RUS_MSV_t90m";
 			atlOffset=0.0030670166;
 		};
-		class Item541
+		class Item539
 		{
 			dataType="Object";
 			class PositionInfo
@@ -71299,7 +71263,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item542
+		class Item540
 		{
 			dataType="Object";
 			class PositionInfo
@@ -71316,24 +71280,7 @@ class Mission
 			type="NORD_KRAZ_TENT";
 			atlOffset=-0.029363632;
 		};
-		class Item543
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={586.86407,26.317537,568.05872};
-				angles[]={0,0.52896541,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=165040;
-			type="nord_marder_1a5_ua";
-			atlOffset=-0.012882233;
-		};
-		class Item544
+		class Item541
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -71378,41 +71325,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item545
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={592.98895,26.315573,564.44427};
-				angles[]={0,0.5350616,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=165024;
-			type="nord_marder_1a5_ua";
-			atlOffset=-0.1127739;
-		};
-		class Item546
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={605.97626,26.173449,557.78082};
-				angles[]={0,0.57935947,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=165048;
-			type="NORD_LEOPARD_2A6_UA";
-			atlOffset=-0.0066165924;
-		};
-		class Item547
+		class Item542
 		{
 			dataType="Object";
 			class PositionInfo
@@ -71428,12 +71341,12 @@ class Mission
 			type="RUS_MSV_east_btr82a";
 			atlOffset=0.27398872;
 		};
-		class Item548
+		class Item543
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={19675.588,31.003405,20047.475};
+				position[]={19676.697,31.004032,20046.229};
 				angles[]={0,4.399044,0};
 			};
 			side="Empty";
@@ -71443,46 +71356,9 @@ class Mission
 			};
 			id=165050;
 			type="RUS_MSV_east_btr82a";
-			atlOffset=1.7166138e-05;
+			atlOffset=-0.0015106201;
 		};
-		class Item549
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={614.633,26.213451,550.55127};
-				angles[]={0,0.58312255,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-			};
-			id=165052;
-			type="rhsusf_stryker_m1132_m2_wd";
-			atlOffset=-0.015739441;
-		};
-		class Item550
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={610.65808,26.833595,554.40363};
-				angles[]={0,0.67096138,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=165051;
-			type="m113_ukr_krest";
-			atlOffset=-0.13454819;
-		};
-		class Item551
+		class Item544
 		{
 			dataType="Object";
 			class PositionInfo
@@ -71498,6 +71374,158 @@ class Mission
 			id=165054;
 			type="RUS_MP_east_kamaz4350";
 			atlOffset=0.0045413971;
+		};
+		class Item545
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={610.30389,27.149456,552.38525};
+				angles[]={0,0.59462434,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=165067;
+			type="FA_UAF_BTR3_NO_ATGM";
+			atlOffset=0.0091934204;
+		};
+		class Item546
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={615.33875,27.173546,549.42761};
+				angles[]={0,0.59462434,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=165068;
+			type="FA_UAF_BTR3_NO_ATGM";
+			atlOffset=0.0066261292;
+		};
+		class Item547
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={604.09973,26.697491,555.51672};
+				angles[]={0,0.5279147,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=165069;
+			type="nord_leopard2a4_UA";
+			atlOffset=-0.0010375977;
+		};
+		class Item548
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19636.361,29.655043,20077.633};
+				angles[]={0,2.7919195,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=165073;
+			type="LOP_SYR_UAZ";
+			atlOffset=-0.084871292;
+		};
+		class Item549
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19643.613,29.755247,20080.889};
+				angles[]={0,2.7576783,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=165074;
+			type="LOP_SYR_UAZ";
+			atlOffset=-0.067770004;
+		};
+		class Item550
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={19640.387,29.779394,20078.889};
+				angles[]={0,2.712961,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=165075;
+			type="LOP_SYR_UAZ";
+			atlOffset=-5.7220459e-06;
+		};
+		class Item551
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={593.01794,25.243504,563.14734};
+				angles[]={0,0.4958618,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=165076;
+			type="b_afougf_oldarmy_UAZ_Base";
+			atlOffset=3.8146973e-06;
+		};
+		class Item552
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={589.08081,25.148495,566.13049};
+				angles[]={0,0.4958618,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=165077;
+			type="b_afougf_oldarmy_UAZ_Base";
+		};
+		class Item553
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={585.04291,25.079535,568.61047};
+				angles[]={0,0.4958618,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=165078;
+			type="b_afougf_oldarmy_UAZ_Base";
+			atlOffset=3.8146973e-06;
 		};
 	};
 };
