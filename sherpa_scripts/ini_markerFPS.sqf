@@ -84,16 +84,19 @@ while {true} do {
         private _clientMapFPS = missionNamespace getVariable ("_clientMapFPS");
         if (count _clientMapFPS > 0) then {
             private _sumFPS = 0;
+            private _sumMinFPS = 0;
             { 
-            _sumFPS = _sumFPS + (_y select 0); 
+                _sumFPS = _sumFPS + (_y select 0); 
+                _sumMinFPS = _sumMinFPS + (_y select 1); 
             } forEach _clientMapFPS;
             private _averageFPS = (_sumFPS / (count _clientMapFPS));
+            private _minimumFPS = (_sumMinFPS / (count _clientMapFPS));
             _playerFPSmarker setMarkerColor "ColorGREEN";
             if (_averageFPS < 30) then {_playerFPSmarker setMarkerColor "ColorYELLOW";};
             if (_averageFPS < 20) then {_playerFPSmarker setMarkerColor "ColorORANGE";};
             if (_averageFPS < 10) then {_playerFPSmarker setMarkerColor "ColorRED";};
-            diag_log format ["Average FPS all players: %1", _averageFPS];
-            _playerFPSmarker setMarkerText format ["Средний клиентский FPS за последние 10 минут: %1 FPS", _averageFPS];
+            diag_log format ["FPS all players: average = %1; minimal = %2", _averageFPS, _minimumFPS];
+            _playerFPSmarker setMarkerText format ["Средний клиентский FPS за последние 10 минут: %1 FPS; минимальный: %2 FPS", _averageFPS, _minimumFPS];
         };
     };
 
